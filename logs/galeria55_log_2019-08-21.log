@@ -1,0 +1,41 @@
+21-Aug-19 17:36:05 - Function: get_products_covers_front - When: Handling - Message: must be str, not int - Arguments: store_code: plie_test - start: 1
+21-Aug-19 17:36:05 - 127.0.0.1 - - [21/Aug/2019 17:36:05] "GET /webapi/products_covers/plie_test?s=1 HTTP/1.1" 200 -
+21-Aug-19 17:36:05 - 127.0.0.1 - - [21/Aug/2019 17:36:05] "GET /webapi/guest HTTP/1.1" 200 -
+21-Aug-19 17:36:06 - 127.0.0.1 - - [21/Aug/2019 17:36:06] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+21-Aug-19 17:37:13 - 127.0.0.1 - - [21/Aug/2019 17:37:13] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+21-Aug-19 17:37:13 - 127.0.0.1 - - [21/Aug/2019 17:37:13] "GET /webapi/banners/plie_test HTTP/1.1" 200 -
+21-Aug-19 17:37:13 - 127.0.0.1 - - [21/Aug/2019 17:37:13] "GET /webapi/categories?sc=plie_test HTTP/1.1" 200 -
+21-Aug-19 17:37:13 - Function: get_products_covers_front - When: Handling - Message: must be str, not int - Arguments: store_code: plie_test - start: 1
+21-Aug-19 17:37:13 - 127.0.0.1 - - [21/Aug/2019 17:37:13] "GET /webapi/products_covers/plie_test?s=1 HTTP/1.1" 200 -
+21-Aug-19 17:37:13 - 127.0.0.1 - - [21/Aug/2019 17:37:13] "GET /webapi/guest HTTP/1.1" 200 -
+21-Aug-19 17:37:14 - 127.0.0.1 - - [21/Aug/2019 17:37:14] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+21-Aug-19 17:37:50 - 127.0.0.1 - - [21/Aug/2019 17:37:50] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+21-Aug-19 17:37:50 - 127.0.0.1 - - [21/Aug/2019 17:37:50] "GET /webapi/banners/plie_test HTTP/1.1" 200 -
+21-Aug-19 17:37:50 - 127.0.0.1 - - [21/Aug/2019 17:37:50] "GET /webapi/categories?sc=plie_test HTTP/1.1" 200 -
+21-Aug-19 17:37:50 - Function: get_products_covers_front - When: Handling - Message: must be str, not int - Arguments: store_code: plie_test - start: 1
+21-Aug-19 17:37:50 - 127.0.0.1 - - [21/Aug/2019 17:37:50] "GET /webapi/products_covers/plie_test?s=1 HTTP/1.1" 200 -
+21-Aug-19 17:37:50 - 127.0.0.1 - - [21/Aug/2019 17:37:50] "GET /webapi/guest HTTP/1.1" 200 -
+21-Aug-19 17:37:51 - 127.0.0.1 - - [21/Aug/2019 17:37:51] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+21-Aug-19 17:40:23 - Function: get_database_product_categories_front - When: Getting - Message: unhashable type: 'dict' - Arguments: store_code:ALL - category_name: Biscuit - start: 1
+21-Aug-19 17:40:23 - 127.0.0.1 - - [21/Aug/2019 17:40:23] "GET /webapi/product_categories_front/ALL/Biscuit?s=1 HTTP/1.1" 200 -
+21-Aug-19 17:40:23 - 127.0.0.1 - - [21/Aug/2019 17:40:23] "GET /webapi/product_filters_front/ALL/Biscuit/CATEGORY/deliver HTTP/1.1" 200 -
+21-Aug-19 17:40:23 - 127.0.0.1 - - [21/Aug/2019 17:40:23] "GET /webapi/product_filters_front/ALL/Biscuit/CATEGORY/public HTTP/1.1" 200 -
+21-Aug-19 17:40:23 - 127.0.0.1 - - [21/Aug/2019 17:40:23] "GET /webapi/product_filters_front/ALL/Biscuit/CATEGORY/price HTTP/1.1" 200 -
+21-Aug-19 17:40:23 - 127.0.0.1 - - [21/Aug/2019 17:40:23] "GET /webapi/product_filters_front/ALL/Biscuit/CATEGORY/state HTTP/1.1" 200 -
+21-Aug-19 17:40:23 - 127.0.0.1 - - [21/Aug/2019 17:40:23] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+21-Aug-19 17:46:04 - 127.0.0.1 - - [21/Aug/2019 17:46:04] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+21-Aug-19 17:46:04 - 127.0.0.1 - - [21/Aug/2019 17:46:04] "GET /webapi/banners/plie_test HTTP/1.1" 200 -
+21-Aug-19 17:46:04 - 127.0.0.1 - - [21/Aug/2019 17:46:04] "GET /webapi/categories?sc=plie_test HTTP/1.1" 200 -
+21-Aug-19 17:46:04 - 127.0.0.1 - - [21/Aug/2019 17:46:04] "GET /webapi/products_covers/plie_test?s=1 HTTP/1.1" 200 -
+21-Aug-19 17:46:04 - 127.0.0.1 - - [21/Aug/2019 17:46:04] "GET /webapi/guest HTTP/1.1" 200 -
+21-Aug-19 17:46:06 - 127.0.0.1 - - [21/Aug/2019 17:46:06] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+21-Aug-19 17:46:06 - 127.0.0.1 - - [21/Aug/2019 17:46:06] "GET /webapi/banners/plie_test HTTP/1.1" 200 -
+21-Aug-19 17:46:06 - 127.0.0.1 - - [21/Aug/2019 17:46:06] "GET /webapi/categories?sc=plie_test HTTP/1.1" 200 -
+21-Aug-19 17:46:06 - 127.0.0.1 - - [21/Aug/2019 17:46:06] "GET /webapi/products_covers/plie_test?s=1 HTTP/1.1" 200 -
+21-Aug-19 17:47:09 - 127.0.0.1 - - [21/Aug/2019 17:47:09] "OPTIONS /webapi/products_covers?s=2 HTTP/1.1" 404 -
+21-Aug-19 17:47:12 - 127.0.0.1 - - [21/Aug/2019 17:47:12] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+21-Aug-19 17:47:12 - 127.0.0.1 - - [21/Aug/2019 17:47:12] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+21-Aug-19 17:47:12 - 127.0.0.1 - - [21/Aug/2019 17:47:12] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+21-Aug-19 17:47:12 - 127.0.0.1 - - [21/Aug/2019 17:47:12] "GET /webapi/guest HTTP/1.1" 200 -
+21-Aug-19 17:47:17 - 127.0.0.1 - - [21/Aug/2019 17:47:17] "OPTIONS /webapi/products_covers?s=2 HTTP/1.1" 404 -
+21-Aug-19 19:10:32 - Function: get_store_code_from_store_name - When: Handling - Message: strip() takes at most 1 argument (2 given) - Arguments: store_name: pliê test~ Á quero 9*%?^´^^^~^' `´´

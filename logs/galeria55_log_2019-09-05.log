@@ -1,0 +1,27 @@
+05-Sep-19 15:53:40 - Function: merge_database_user - When: Updating - Message: 'type' - Arguments: {'name': 'test', 'pwd': '123468', 'email': 'teste_criar_conta@gmail.com', 'news': 'Y', 'connected': 'Y'}
+05-Sep-19 15:53:40 - Function: create_user - When: Handling - Message:  - Arguments: {'name': 'test', 'pwd': '123468', 'email': 'teste_criar_conta@gmail.com', 'news': 'Y', 'connected': 'Y'}
+05-Sep-19 15:53:40 - 127.0.0.1 - - [05/Sep/2019 15:53:40] "POST /webapi/create_user_account HTTP/1.1" 200 -
+05-Sep-19 16:12:14 - Function: merge_database_user - When: Updating - Message: 'type' - Arguments: {'user': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 16:12:14 - Function: create_user - When: Handling - Message:  - Arguments: {'user': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 16:13:18 - Function: merge_database_user - When: Updating - Message: 'type' - Arguments: {'user': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 16:13:18 - Function: create_user_account - When: Handling - Message:  - Arguments: {'user': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 16:16:29 - Function: authenticated_user - When: Handling - Message: 'user' - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234', 'creation_date': '05-09-2019 16:16', '_id': ObjectId('5d715f0daee7b84e3972701f')}
+05-Sep-19 16:42:36 - Function: get_user_id - When: Handling - Message: must be str, not dict - Arguments: 
+05-Sep-19 16:42:36 - Function: create_user_account - When: Handling - Message:  - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 17:15:33 - Function: get_user_id - When: Handling - Message: must be str, not dict - Arguments: 
+05-Sep-19 17:15:33 - Function: create_user_account - When: Handling - Message:  - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 17:22:03 - Function: create_user_account - When: Handling - Message:  - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 17:25:05 - Function: create_user_account - When: Handling - Message:  - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 17:25:50 - Function: create_user_account - When: Handling - Message:  - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 17:26:51 - Function: create_user_account - When: Handling - Message: Usuer already exists - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 17:31:42 - Function: create_user_account - When: Handling - Message: Usuer already exists - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 17:35:33 - Function: create_user_account - When: Handling - Message: '[]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: {'email': 'test_create_user@email.com', 'name': 'test', 'status': 'Ativo', 'password': '1234'}
+05-Sep-19 17:45:59 - Function: merge_database_user - When: Updating - Message: 'status' - Arguments: {'name': 'test', 'pwd': '123468', 'email': 'teste_criar_conta@gmail.com', 'news': 'Y', 'connected': 'Y'}
+05-Sep-19 17:45:59 - Function: create_user_account - When: Handling - Message:  - Arguments: {'name': 'test', 'pwd': '123468', 'email': 'teste_criar_conta@gmail.com', 'news': 'Y', 'connected': 'Y'}
+05-Sep-19 17:45:59 - 127.0.0.1 - - [05/Sep/2019 17:45:59] "POST /webapi/create_user_account HTTP/1.1" 200 -
+05-Sep-19 17:46:33 - 127.0.0.1 - - [05/Sep/2019 17:46:33] "OPTIONS /webapi/create_user_account HTTP/1.1" 200 -
+05-Sep-19 17:46:33 - Function: merge_database_user - When: Updating - Message: 'status' - Arguments: {'name': 'test', 'pwd': '123468', 'email': 'teste_criar_conta@gmail.com', 'news': 'Y', 'connected': 'Y'}
+05-Sep-19 17:46:33 - Function: create_user_account - When: Handling - Message:  - Arguments: {'name': 'test', 'pwd': '123468', 'email': 'teste_criar_conta@gmail.com', 'news': 'Y', 'connected': 'Y'}
+05-Sep-19 17:46:33 - 127.0.0.1 - - [05/Sep/2019 17:46:33] "POST /webapi/create_user_account HTTP/1.1" 200 -
+05-Sep-19 18:01:43 - Function: create_user_account - When: Handling - Message: 'Cursor' object has no attribute 'first' - Arguments: {'name': 'Test', 'pwd': '1234', 'email': 'teste_criar_conta@gmail.com', 'news': 'N', 'connected': 'N'}
+05-Sep-19 18:01:43 - 127.0.0.1 - - [05/Sep/2019 18:01:43] "POST /webapi/create_user_account HTTP/1.1" 200 -

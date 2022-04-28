@@ -1,0 +1,213 @@
+02-Sep-19 15:12:23 - Function: get_database_product_categories_front - When: Getting - Message: must be str, not ObjectId - Arguments: 
+02-Sep-19 15:12:23 - 127.0.0.1 - - [02/Sep/2019 15:12:23] "GET /webapi/product_categories_front/G55/biscuit?s=1 HTTP/1.1" 200 -
+02-Sep-19 15:12:23 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - Function: get_database_product_deliver_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - 127.0.0.1 - - [02/Sep/2019 15:12:23] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/deliver HTTP/1.1" 200 -
+02-Sep-19 15:12:23 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - Function: get_database_product_public_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - 127.0.0.1 - - [02/Sep/2019 15:12:23] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/public HTTP/1.1" 200 -
+02-Sep-19 15:12:23 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - Function: get_database_product_price_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_codeG55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - 127.0.0.1 - - [02/Sep/2019 15:12:23] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/price HTTP/1.1" 200 -
+02-Sep-19 15:12:23 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - Function: get_database_product_state_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 -search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - 127.0.0.1 - - [02/Sep/2019 15:12:23] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/state HTTP/1.1" 200 -
+02-Sep-19 15:12:23 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - Function: get_database_product_category_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+02-Sep-19 15:12:23 - 127.0.0.1 - - [02/Sep/2019 15:12:23] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/CATEGORY HTTP/1.1" 200 -
+02-Sep-19 15:12:24 - 127.0.0.1 - - [02/Sep/2019 15:12:24] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 15:12:50 - 127.0.0.1 - - [02/Sep/2019 15:12:50] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 15:12:50 - 127.0.0.1 - - [02/Sep/2019 15:12:50] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 15:12:50 - 127.0.0.1 - - [02/Sep/2019 15:12:50] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 15:12:50 - 127.0.0.1 - - [02/Sep/2019 15:12:50] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 15:12:54 - Function: get_database_authenticated_user - When: Getting - Message: 'shop.html' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: shop.html
+02-Sep-19 15:12:54 - 127.0.0.1 - - [02/Sep/2019 15:12:54] "GET /webapi/verify_token/shop.html HTTP/1.1" 200 -
+02-Sep-19 15:12:55 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 15:12:55 - 127.0.0.1 - - [02/Sep/2019 15:12:55] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 15:12:57 - 127.0.0.1 - - [02/Sep/2019 15:12:57] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 15:12:57 - 127.0.0.1 - - [02/Sep/2019 15:12:57] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 15:12:57 - 127.0.0.1 - - [02/Sep/2019 15:12:57] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 15:12:57 - 127.0.0.1 - - [02/Sep/2019 15:12:57] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 15:13:00 - Function: get_database_authenticated_user - When: Getting - Message: 'shop.html' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: shop.html
+02-Sep-19 15:13:00 - 127.0.0.1 - - [02/Sep/2019 15:13:00] "GET /webapi/verify_token/shop.html HTTP/1.1" 200 -
+02-Sep-19 15:13:00 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 15:13:00 - 127.0.0.1 - - [02/Sep/2019 15:13:00] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 15:13:02 - 127.0.0.1 - - [02/Sep/2019 15:13:02] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 15:13:02 - 127.0.0.1 - - [02/Sep/2019 15:13:02] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 15:13:02 - 127.0.0.1 - - [02/Sep/2019 15:13:02] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 15:13:02 - 127.0.0.1 - - [02/Sep/2019 15:13:02] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 15:13:36 - 127.0.0.1 - - [02/Sep/2019 15:13:36] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 15:13:36 - 127.0.0.1 - - [02/Sep/2019 15:13:36] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 15:13:36 - 127.0.0.1 - - [02/Sep/2019 15:13:36] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 15:13:36 - 127.0.0.1 - - [02/Sep/2019 15:13:36] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 15:13:37 - 127.0.0.1 - - [02/Sep/2019 15:13:37] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 15:14:46 - 127.0.0.1 - - [02/Sep/2019 15:14:46] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 15:14:46 - 127.0.0.1 - - [02/Sep/2019 15:14:46] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 15:14:46 - 127.0.0.1 - - [02/Sep/2019 15:14:46] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 15:14:46 - 127.0.0.1 - - [02/Sep/2019 15:14:46] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 15:14:46 - 127.0.0.1 - - [02/Sep/2019 15:14:46] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 15:14:58 - 127.0.0.1 - - [02/Sep/2019 15:14:58] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 15:14:58 - 127.0.0.1 - - [02/Sep/2019 15:14:58] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 15:14:58 - 127.0.0.1 - - [02/Sep/2019 15:14:58] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 15:14:58 - 127.0.0.1 - - [02/Sep/2019 15:14:58] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 15:14:58 - 127.0.0.1 - - [02/Sep/2019 15:14:58] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 15:14:59 - 127.0.0.1 - - [02/Sep/2019 15:14:59] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 15:15:02 - 127.0.0.1 - - [02/Sep/2019 15:15:02] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 15:15:02 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 15:15:02 - 127.0.0.1 - - [02/Sep/2019 15:15:02] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:15:12 - 127.0.0.1 - - [02/Sep/2019 18:15:12] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 18:15:12 - 127.0.0.1 - - [02/Sep/2019 18:15:12] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 18:15:12 - 127.0.0.1 - - [02/Sep/2019 18:15:12] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 18:15:12 - 127.0.0.1 - - [02/Sep/2019 18:15:12] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 18:15:18 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 18:15:18 - 127.0.0.1 - - [02/Sep/2019 18:15:18] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:15:33 - 127.0.0.1 - - [02/Sep/2019 18:15:33] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 18:15:33 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 18:15:33 - 127.0.0.1 - - [02/Sep/2019 18:15:33] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:17:10 - 127.0.0.1 - - [02/Sep/2019 18:17:10] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 18:17:10 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 18:17:10 - 127.0.0.1 - - [02/Sep/2019 18:17:10] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:18:47 - 127.0.0.1 - - [02/Sep/2019 18:18:47] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 18:20:07 - 127.0.0.1 - - [02/Sep/2019 18:20:07] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 18:20:07 - 127.0.0.1 - - [02/Sep/2019 18:20:07] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 18:20:07 - 127.0.0.1 - - [02/Sep/2019 18:20:07] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 18:20:07 - 127.0.0.1 - - [02/Sep/2019 18:20:07] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 18:20:07 - 127.0.0.1 - - [02/Sep/2019 18:20:07] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 18:20:24 - 127.0.0.1 - - [02/Sep/2019 18:20:24] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:20:24 - 127.0.0.1 - - [02/Sep/2019 18:20:24] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:20:24 - 127.0.0.1 - - [02/Sep/2019 18:20:24] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 18:20:24 - 127.0.0.1 - - [02/Sep/2019 18:20:24] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 18:20:24 - 127.0.0.1 - - [02/Sep/2019 18:20:24] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 18:20:24 - 127.0.0.1 - - [02/Sep/2019 18:20:24] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 18:20:29 - 127.0.0.1 - - [02/Sep/2019 18:20:29] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 18:20:56 - 127.0.0.1 - - [02/Sep/2019 18:20:56] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 18:20:59 - 127.0.0.1 - - [02/Sep/2019 18:20:59] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 18:25:51 - 127.0.0.1 - - [02/Sep/2019 18:25:51] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 18:26:59 - 127.0.0.1 - - [02/Sep/2019 18:26:59] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 18:26:59 - 127.0.0.1 - - [02/Sep/2019 18:26:59] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 18:26:59 - 127.0.0.1 - - [02/Sep/2019 18:26:59] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 18:26:59 - 127.0.0.1 - - [02/Sep/2019 18:26:59] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 18:26:59 - 127.0.0.1 - - [02/Sep/2019 18:26:59] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 18:27:17 - 127.0.0.1 - - [02/Sep/2019 18:27:17] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:27:17 - 127.0.0.1 - - [02/Sep/2019 18:27:17] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:27:17 - 127.0.0.1 - - [02/Sep/2019 18:27:17] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 18:27:17 - 127.0.0.1 - - [02/Sep/2019 18:27:17] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 18:27:17 - 127.0.0.1 - - [02/Sep/2019 18:27:17] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 18:27:17 - 127.0.0.1 - - [02/Sep/2019 18:27:17] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 18:27:22 - 127.0.0.1 - - [02/Sep/2019 18:27:22] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 18:27:29 - 127.0.0.1 - - [02/Sep/2019 18:27:29] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab4 HTTP/1.1" 200 -
+02-Sep-19 18:28:29 - 127.0.0.1 - - [02/Sep/2019 18:28:29] "GET /webapi/verify_token/5cf952ebb5c5a70538425a58 HTTP/1.1" 200 -
+02-Sep-19 18:28:31 - 127.0.0.1 - - [02/Sep/2019 18:28:31] "GET /webapi/verify_token/5cf952ebb5c5a70538425a58 HTTP/1.1" 200 -
+02-Sep-19 18:29:26 - 127.0.0.1 - - [02/Sep/2019 18:29:26] "GET /webapi/verify_token/5cf952ebb5c5a70538425a58 HTTP/1.1" 200 -
+02-Sep-19 18:29:42 - 127.0.0.1 - - [02/Sep/2019 18:29:42] "GET /webapi/verify_token/5cf952ebb5c5a70538425a58 HTTP/1.1" 200 -
+02-Sep-19 18:35:09 - 127.0.0.1 - - [02/Sep/2019 18:35:09] "GET /webapi/verify_token/5cf952ebb5c5a70538425a58 HTTP/1.1" 200 -
+02-Sep-19 18:36:28 - 127.0.0.1 - - [02/Sep/2019 18:36:28] "GET /webapi/verify_token/5cf952ebb5c5a70538425125 HTTP/1.1" 200 -
+02-Sep-19 18:36:50 - 127.0.0.1 - - [02/Sep/2019 18:36:50] "GET /webapi/verify_token/5cf952ebb5c5a70538425125 HTTP/1.1" 200 -
+02-Sep-19 18:37:55 - 127.0.0.1 - - [02/Sep/2019 18:37:55] "GET /webapi/verify_token/5cf952ebb5c5a70538425125 HTTP/1.1" 200 -
+02-Sep-19 18:38:35 - 127.0.0.1 - - [02/Sep/2019 18:38:35] "GET /webapi/verify_token/5cf952ebb5c5a70538425125 HTTP/1.1" 200 -
+02-Sep-19 18:39:05 - 127.0.0.1 - - [02/Sep/2019 18:39:05] "GET /webapi/verify_token/5cf952ebb5c5a70538425125 HTTP/1.1" 200 -
+02-Sep-19 18:39:47 - 127.0.0.1 - - [02/Sep/2019 18:39:47] "GET /webapi/verify_token/5cf952ebb5c5a70538425125 HTTP/1.1" 200 -
+02-Sep-19 18:40:06 - 127.0.0.1 - - [02/Sep/2019 18:40:06] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:40:06 - 127.0.0.1 - - [02/Sep/2019 18:40:06] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:40:06 - 127.0.0.1 - - [02/Sep/2019 18:40:06] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 18:40:06 - 127.0.0.1 - - [02/Sep/2019 18:40:06] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 18:40:06 - 127.0.0.1 - - [02/Sep/2019 18:40:06] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 18:40:06 - 127.0.0.1 - - [02/Sep/2019 18:40:06] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 18:40:09 - 127.0.0.1 - - [02/Sep/2019 18:40:09] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 18:40:15 - 127.0.0.1 - - [02/Sep/2019 18:40:15] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 18:40:15 - 127.0.0.1 - - [02/Sep/2019 18:40:15] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 18:41:34 - 127.0.0.1 - - [02/Sep/2019 18:41:34] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:41:34 - 127.0.0.1 - - [02/Sep/2019 18:41:34] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:41:34 - 127.0.0.1 - - [02/Sep/2019 18:41:34] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 18:41:34 - 127.0.0.1 - - [02/Sep/2019 18:41:34] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 18:41:34 - 127.0.0.1 - - [02/Sep/2019 18:41:34] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 18:41:34 - 127.0.0.1 - - [02/Sep/2019 18:41:34] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 18:43:15 - 127.0.0.1 - - [02/Sep/2019 18:43:15] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 18:43:19 - 127.0.0.1 - - [02/Sep/2019 18:43:19] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 18:43:19 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 18:43:19 - 127.0.0.1 - - [02/Sep/2019 18:43:19] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:46:02 - 127.0.0.1 - - [02/Sep/2019 18:46:02] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 18:46:02 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 18:46:02 - 127.0.0.1 - - [02/Sep/2019 18:46:02] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:49:49 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 18:49:49 - 127.0.0.1 - - [02/Sep/2019 18:49:49] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:54:14 - 127.0.0.1 - - [02/Sep/2019 18:54:14] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 18:54:15 - 127.0.0.1 - - [02/Sep/2019 18:54:15] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 18:56:54 - 127.0.0.1 - - [02/Sep/2019 18:56:54] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:56:54 - 127.0.0.1 - - [02/Sep/2019 18:56:54] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 18:56:55 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 18:56:55 - 127.0.0.1 - - [02/Sep/2019 18:56:55] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:59:29 - 127.0.0.1 - - [02/Sep/2019 18:59:29] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 18:59:29 - 127.0.0.1 - - [02/Sep/2019 18:59:29] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 18:59:29 - 127.0.0.1 - - [02/Sep/2019 18:59:29] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 18:59:29 - 127.0.0.1 - - [02/Sep/2019 18:59:29] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 18:59:29 - 127.0.0.1 - - [02/Sep/2019 18:59:29] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 18:59:49 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 18:59:49 - 127.0.0.1 - - [02/Sep/2019 18:59:49] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 18:59:57 - 127.0.0.1 - - [02/Sep/2019 18:59:57] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 19:00:20 - 127.0.0.1 - - [02/Sep/2019 19:00:20] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 19:00:20 - 127.0.0.1 - - [02/Sep/2019 19:00:20] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 19:00:20 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:00:20 - 127.0.0.1 - - [02/Sep/2019 19:00:20] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:06:30 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:06:30 - 127.0.0.1 - - [02/Sep/2019 19:06:30] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:06:45 - 127.0.0.1 - - [02/Sep/2019 19:06:45] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 19:06:45 - 127.0.0.1 - - [02/Sep/2019 19:06:45] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 19:06:45 - 127.0.0.1 - - [02/Sep/2019 19:06:45] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 19:06:45 - 127.0.0.1 - - [02/Sep/2019 19:06:45] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 19:06:45 - 127.0.0.1 - - [02/Sep/2019 19:06:45] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 19:06:53 - 127.0.0.1 - - [02/Sep/2019 19:06:53] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 19:07:03 - 127.0.0.1 - - [02/Sep/2019 19:07:03] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 19:07:03 - 127.0.0.1 - - [02/Sep/2019 19:07:03] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 19:07:03 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:07:03 - 127.0.0.1 - - [02/Sep/2019 19:07:03] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:08:06 - 127.0.0.1 - - [02/Sep/2019 19:08:06] "GET /webapi/verify_token/5cf952ebb5c5a70538425ab3 HTTP/1.1" 200 -
+02-Sep-19 19:08:26 - 127.0.0.1 - - [02/Sep/2019 19:08:26] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 19:08:35 - 127.0.0.1 - - [02/Sep/2019 19:08:35] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 19:08:35 - 127.0.0.1 - - [02/Sep/2019 19:08:35] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 19:08:35 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:08:35 - 127.0.0.1 - - [02/Sep/2019 19:08:35] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:09:07 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:09:07 - 127.0.0.1 - - [02/Sep/2019 19:09:07] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:09:16 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:09:16 - 127.0.0.1 - - [02/Sep/2019 19:09:16] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:09:45 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:09:45 - 127.0.0.1 - - [02/Sep/2019 19:09:45] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:09:55 - 127.0.0.1 - - [02/Sep/2019 19:09:55] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 19:09:55 - 127.0.0.1 - - [02/Sep/2019 19:09:55] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 19:09:56 - 127.0.0.1 - - [02/Sep/2019 19:09:56] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 19:09:56 - 127.0.0.1 - - [02/Sep/2019 19:09:56] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 19:10:14 - 127.0.0.1 - - [02/Sep/2019 19:10:14] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 19:10:44 - 127.0.0.1 - - [02/Sep/2019 19:10:44] "GET /webapi/verify_token/5cf952ebb5c5a70538425a25 HTTP/1.1" 200 -
+02-Sep-19 19:10:44 - 127.0.0.1 - - [02/Sep/2019 19:10:44] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 19:10:54 - 127.0.0.1 - - [02/Sep/2019 19:10:54] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 19:10:54 - 127.0.0.1 - - [02/Sep/2019 19:10:54] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+02-Sep-19 19:10:54 - 127.0.0.1 - - [02/Sep/2019 19:10:54] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 19:12:14 - Function: get_database_authenticated_user - When: Getting - Message: 'documentation.html' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: documentation.html
+02-Sep-19 19:12:14 - 127.0.0.1 - - [02/Sep/2019 19:12:14] "GET /webapi/verify_token/documentation.html HTTP/1.1" 200 -
+02-Sep-19 19:12:14 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:12:14 - 127.0.0.1 - - [02/Sep/2019 19:12:14] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:12:20 - Function: get_database_authenticated_user - When: Getting - Message: 'documentation.html' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: documentation.html
+02-Sep-19 19:12:20 - 127.0.0.1 - - [02/Sep/2019 19:12:20] "GET /webapi/verify_token/documentation.html HTTP/1.1" 200 -
+02-Sep-19 19:12:20 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:12:20 - 127.0.0.1 - - [02/Sep/2019 19:12:20] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:12:26 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:12:26 - 127.0.0.1 - - [02/Sep/2019 19:12:26] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:21:32 - 127.0.0.1 - - [02/Sep/2019 19:21:32] "GET /webapi/g55_session HTTP/1.1" 200 -
+02-Sep-19 19:21:32 - 127.0.0.1 - - [02/Sep/2019 19:21:32] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+02-Sep-19 19:21:32 - 127.0.0.1 - - [02/Sep/2019 19:21:32] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+02-Sep-19 19:21:33 - 127.0.0.1 - - [02/Sep/2019 19:21:33] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+02-Sep-19 19:21:33 - 127.0.0.1 - - [02/Sep/2019 19:21:33] "GET /webapi/guest HTTP/1.1" 200 -
+02-Sep-19 19:21:45 - 127.0.0.1 - - [02/Sep/2019 19:21:45] "OPTIONS /webapi/products_covers/G55?s=2 HTTP/1.1" 200 -
+02-Sep-19 19:21:45 - 127.0.0.1 - - [02/Sep/2019 19:21:45] "GET /webapi/products_covers/G55?s=2 HTTP/1.1" 200 -
+02-Sep-19 19:21:48 - 127.0.0.1 - - [02/Sep/2019 19:21:48] "OPTIONS /webapi/products_covers/G55?s=3 HTTP/1.1" 200 -
+02-Sep-19 19:21:48 - 127.0.0.1 - - [02/Sep/2019 19:21:48] "GET /webapi/products_covers/G55?s=3 HTTP/1.1" 200 -
+02-Sep-19 19:21:56 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:21:56 - 127.0.0.1 - - [02/Sep/2019 19:21:56] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:23:46 - 127.0.0.1 - - [02/Sep/2019 19:23:46] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+02-Sep-19 19:23:49 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:23:49 - 127.0.0.1 - - [02/Sep/2019 19:23:49] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:23:51 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:23:51 - 127.0.0.1 - - [02/Sep/2019 19:23:51] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+02-Sep-19 19:23:54 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+02-Sep-19 19:23:54 - 127.0.0.1 - - [02/Sep/2019 19:23:54] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -

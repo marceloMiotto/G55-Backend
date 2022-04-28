@@ -1,0 +1,74 @@
+19-Sep-19 14:17:00 - Function: merge_database_product_favorites - When: Updating - Message: 'user_id' - Arguments: {'product_id': '5cf696d67733ab0a5c3a6a7b'}
+19-Sep-19 14:30:04 - Function: merge_database_favorites - When: Updating - Message: 'favorite_id' - Arguments: {'product_id': '5cf696d47733ab0a5c3a6a7a', 'user_id': '5d729ddeaee7b89398d77b08', 'type': 'PRODUCT'}
+19-Sep-19 14:52:07 - Function: merge_database_favorites - When: Updating - Message: 'favorite_id' - Arguments: {'user_id': '5d83c034aee7b89fe4cb2f72', 'type': 'PRODUCT'}
+19-Sep-19 14:52:07 - 127.0.0.1 - - [19/Sep/2019 14:52:07] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:52:19 - 127.0.0.1 - - [19/Sep/2019 14:52:19] "OPTIONS /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:52:19 - Function: merge_database_favorites - When: Updating - Message: 'favorite_id' - Arguments: {'user_id': '5d83c034aee7b89fe4cb2f72', 'type': 'PRODUCT'}
+19-Sep-19 14:52:19 - 127.0.0.1 - - [19/Sep/2019 14:52:19] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:53:34 - 127.0.0.1 - - [19/Sep/2019 14:53:34] "GET /webapi/g55_session HTTP/1.1" 200 -
+19-Sep-19 14:53:34 - 127.0.0.1 - - [19/Sep/2019 14:53:34] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+19-Sep-19 14:53:34 - 127.0.0.1 - - [19/Sep/2019 14:53:34] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+19-Sep-19 14:53:34 - 127.0.0.1 - - [19/Sep/2019 14:53:34] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+19-Sep-19 14:53:34 - 127.0.0.1 - - [19/Sep/2019 14:53:34] "GET /webapi/guest HTTP/1.1" 200 -
+19-Sep-19 14:53:47 - 127.0.0.1 - - [19/Sep/2019 14:53:47] "OPTIONS /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:53:47 - 127.0.0.1 - - [19/Sep/2019 14:53:47] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:54:18 - 127.0.0.1 - - [19/Sep/2019 14:54:18] "GET /webapi/g55_session HTTP/1.1" 200 -
+19-Sep-19 14:54:18 - 127.0.0.1 - - [19/Sep/2019 14:54:18] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+19-Sep-19 14:54:18 - 127.0.0.1 - - [19/Sep/2019 14:54:18] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+19-Sep-19 14:54:18 - 127.0.0.1 - - [19/Sep/2019 14:54:18] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+19-Sep-19 14:54:19 - 127.0.0.1 - - [19/Sep/2019 14:54:19] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+19-Sep-19 14:54:26 - 127.0.0.1 - - [19/Sep/2019 14:54:26] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+19-Sep-19 14:55:04 - 127.0.0.1 - - [19/Sep/2019 14:55:04] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+19-Sep-19 14:55:35 - 127.0.0.1 - - [19/Sep/2019 14:55:35] "OPTIONS /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:35 - 127.0.0.1 - - [19/Sep/2019 14:55:35] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:36 - 127.0.0.1 - - [19/Sep/2019 14:55:36] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:36 - 127.0.0.1 - - [19/Sep/2019 14:55:36] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:36 - 127.0.0.1 - - [19/Sep/2019 14:55:36] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:37 - 127.0.0.1 - - [19/Sep/2019 14:55:37] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:37 - 127.0.0.1 - - [19/Sep/2019 14:55:37] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:37 - 127.0.0.1 - - [19/Sep/2019 14:55:37] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:38 - 127.0.0.1 - - [19/Sep/2019 14:55:38] "OPTIONS /webapi/cart HTTP/1.1" 200 -
+19-Sep-19 14:55:38 - Function: update_product - When: Updating - Message: 'category_name' - Arguments: {'user_id': '5d83c09eaee7b89fe4cb2f74', 'store_id': '5c914d8e78de470068b0d1d3', 'store_code': 'G55', 'product_id': '5cf696d47733ab0a5c3a6a7a', 'quantity': 1, 'product_name': 'Almofada Pasa', 'product_photo': 'almofada', 'price': 39.9, 'gift_value': 0, 'gift_flag': 'N', 'observations': '', 'freight_value': 0, 'freight_type': '', 'freight_eta': 0, 'coupon': '', 'discount_value': 0, 'discount': 0}
+19-Sep-19 14:55:38 - 127.0.0.1 - - [19/Sep/2019 14:55:38] "POST /webapi/cart HTTP/1.1" 200 -
+19-Sep-19 14:55:44 - 127.0.0.1 - - [19/Sep/2019 14:55:44] "OPTIONS /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:55:44 - 127.0.0.1 - - [19/Sep/2019 14:55:44] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:18 - 127.0.0.1 - - [19/Sep/2019 14:56:18] "GET /webapi/g55_session HTTP/1.1" 200 -
+19-Sep-19 14:56:18 - 127.0.0.1 - - [19/Sep/2019 14:56:18] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+19-Sep-19 14:56:18 - 127.0.0.1 - - [19/Sep/2019 14:56:18] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+19-Sep-19 14:56:18 - 127.0.0.1 - - [19/Sep/2019 14:56:18] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+19-Sep-19 14:56:22 - 127.0.0.1 - - [19/Sep/2019 14:56:22] "OPTIONS /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:22 - 127.0.0.1 - - [19/Sep/2019 14:56:22] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:23 - 127.0.0.1 - - [19/Sep/2019 14:56:23] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:23 - 127.0.0.1 - - [19/Sep/2019 14:56:23] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:23 - 127.0.0.1 - - [19/Sep/2019 14:56:23] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:23 - 127.0.0.1 - - [19/Sep/2019 14:56:23] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:23 - 127.0.0.1 - - [19/Sep/2019 14:56:23] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:24 - 127.0.0.1 - - [19/Sep/2019 14:56:24] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:24 - 127.0.0.1 - - [19/Sep/2019 14:56:24] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:56:24 - 127.0.0.1 - - [19/Sep/2019 14:56:24] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:57:27 - 127.0.0.1 - - [19/Sep/2019 14:57:27] "GET /webapi/g55_session HTTP/1.1" 200 -
+19-Sep-19 14:57:27 - 127.0.0.1 - - [19/Sep/2019 14:57:27] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+19-Sep-19 14:57:27 - 127.0.0.1 - - [19/Sep/2019 14:57:27] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+19-Sep-19 14:57:28 - 127.0.0.1 - - [19/Sep/2019 14:57:28] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+19-Sep-19 14:57:32 - 127.0.0.1 - - [19/Sep/2019 14:57:32] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+19-Sep-19 14:59:19 - 127.0.0.1 - - [19/Sep/2019 14:59:19] "GET /webapi/g55_session HTTP/1.1" 200 -
+19-Sep-19 14:59:19 - 127.0.0.1 - - [19/Sep/2019 14:59:19] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+19-Sep-19 14:59:19 - 127.0.0.1 - - [19/Sep/2019 14:59:19] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+19-Sep-19 14:59:20 - 127.0.0.1 - - [19/Sep/2019 14:59:20] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+19-Sep-19 14:59:26 - 127.0.0.1 - - [19/Sep/2019 14:59:26] "OPTIONS /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:59:26 - 127.0.0.1 - - [19/Sep/2019 14:59:26] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:59:49 - 127.0.0.1 - - [19/Sep/2019 14:59:49] "OPTIONS /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 14:59:49 - 127.0.0.1 - - [19/Sep/2019 14:59:49] "POST /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 15:00:30 - 127.0.0.1 - - [19/Sep/2019 15:00:30] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+19-Sep-19 15:00:30 - 127.0.0.1 - - [19/Sep/2019 15:00:30] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+19-Sep-19 15:00:30 - 127.0.0.1 - - [19/Sep/2019 15:00:30] "GET /webapi/g55_session HTTP/1.1" 200 -
+19-Sep-19 15:00:30 - 127.0.0.1 - - [19/Sep/2019 15:00:30] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+19-Sep-19 15:00:30 - 127.0.0.1 - - [19/Sep/2019 15:00:30] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+19-Sep-19 15:00:30 - 127.0.0.1 - - [19/Sep/2019 15:00:30] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+19-Sep-19 15:22:01 - Function: get_database_products - When: Getting - Message: '' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: user_id: 
+19-Sep-19 15:22:23 - 127.0.0.1 - - [19/Sep/2019 15:22:23] "GET /webapi/g55_session HTTP/1.1" 200 -
+19-Sep-19 15:22:23 - 127.0.0.1 - - [19/Sep/2019 15:22:23] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+19-Sep-19 15:22:23 - 127.0.0.1 - - [19/Sep/2019 15:22:23] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+19-Sep-19 15:22:23 - 127.0.0.1 - - [19/Sep/2019 15:22:23] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+19-Sep-19 15:22:27 - 127.0.0.1 - - [19/Sep/2019 15:22:27] "OPTIONS /webapi/favorites HTTP/1.1" 200 -
+19-Sep-19 15:22:27 - 127.0.0.1 - - [19/Sep/2019 15:22:27] "POST /webapi/favorites HTTP/1.1" 200 -

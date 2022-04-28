@@ -1,0 +1,33 @@
+17-Oct-19 22:55:05 - Function: merge_database_register_message_user_session - When: Updating - Message: '_id' - Arguments: {'user_id': '5c991bd0eae4fc0f1cb5f2c0', 'session_id': '12345'}
+17-Oct-19 23:15:03 - Function: get_database_message_user_session - When: Getting - Message: '' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: 
+17-Oct-19 23:46:02 - Function: merge_database_register_message_user_session - When: Updating - Message: 'NoneType' object has no attribute 'get' - Arguments: None
+17-Oct-19 23:46:02 - 127.0.0.1 - - [17/Oct/2019 23:46:02] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:48:15 - Function: merge_database_register_message_user_session - When: Updating - Message: 'NoneType' object has no attribute 'get' - Arguments: None
+17-Oct-19 23:48:15 - 127.0.0.1 - - [17/Oct/2019 23:48:15] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:49:01 - Function: merge_database_register_message_user_session - When: Updating - Message: 'NoneType' object has no attribute 'get' - Arguments: None
+17-Oct-19 23:49:01 - 127.0.0.1 - - [17/Oct/2019 23:49:01] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:49:41 - Function: merge_database_register_message_user_session - When: Updating - Message: 'NoneType' object has no attribute 'get' - Arguments: None
+17-Oct-19 23:49:41 - 127.0.0.1 - - [17/Oct/2019 23:49:41] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:50:16 - Function: merge_database_register_message_user_session - When: Updating - Message: 'NoneType' object has no attribute 'get' - Arguments: None
+17-Oct-19 23:50:16 - 127.0.0.1 - - [17/Oct/2019 23:50:16] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:51:42 - Function: merge_database_register_message_user_session - When: Updating - Message: 'NoneType' object has no attribute 'get' - Arguments: None
+17-Oct-19 23:51:42 - 127.0.0.1 - - [17/Oct/2019 23:51:42] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:52:48 - Function: merge_database_register_message_user_session - When: Updating - Message: 'NoneType' object has no attribute 'get' - Arguments: None
+17-Oct-19 23:52:48 - 127.0.0.1 - - [17/Oct/2019 23:52:48] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:53:09 - Function: merge_database_register_message_user_session - When: Updating - Message: 'NoneType' object has no attribute 'get' - Arguments: None
+17-Oct-19 23:53:09 - 127.0.0.1 - - [17/Oct/2019 23:53:09] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:54:04 - 127.0.0.1 - - [17/Oct/2019 23:54:04] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:55:21 - 127.0.0.1 - - [17/Oct/2019 23:55:21] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:56:51 - 127.0.0.1 - - [17/Oct/2019 23:56:51] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:56:56 - 127.0.0.1 - - [17/Oct/2019 23:56:56] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:56:56 - 127.0.0.1 - - [17/Oct/2019 23:56:56] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:56:56 - 127.0.0.1 - - [17/Oct/2019 23:56:56] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:56:57 - 127.0.0.1 - - [17/Oct/2019 23:56:57] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:56:58 - 127.0.0.1 - - [17/Oct/2019 23:56:58] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:56:58 - 127.0.0.1 - - [17/Oct/2019 23:56:58] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:56:59 - 127.0.0.1 - - [17/Oct/2019 23:56:59] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:57:00 - 127.0.0.1 - - [17/Oct/2019 23:57:00] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:57:01 - 127.0.0.1 - - [17/Oct/2019 23:57:01] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+17-Oct-19 23:57:01 - 127.0.0.1 - - [17/Oct/2019 23:57:01] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+18-Oct-19 00:07:21 - 127.0.0.1 - - [18/Oct/2019 00:07:21] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+18-Oct-19 00:07:21 - 127.0.0.1 - - [18/Oct/2019 00:07:21] "GET /webapi/message_user_session/5d729ddeaee7b89398d77b08 HTTP/1.1" 200 -

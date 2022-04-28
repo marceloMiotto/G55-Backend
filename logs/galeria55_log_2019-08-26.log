@@ -1,0 +1,411 @@
+26-Aug-19 10:52:50 - Function: get_session - When: Handling - Message: 'DatabaseSessionService' object has no attribute 'get_database_service' - Arguments: Get Service ID
+26-Aug-19 11:20:47 - Function: get_database_product_categories_front - When: Getting - Message: must be str, not ObjectId - Arguments: 
+26-Aug-19 11:20:47 - 127.0.0.1 - - [26/Aug/2019 11:20:47] "GET /webapi/product_categories_front/G55/biscuit?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:20:47 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - Function: get_database_product_deliver_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - 127.0.0.1 - - [26/Aug/2019 11:20:47] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/deliver HTTP/1.1" 200 -
+26-Aug-19 11:20:47 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - Function: get_database_product_public_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - 127.0.0.1 - - [26/Aug/2019 11:20:47] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/public HTTP/1.1" 200 -
+26-Aug-19 11:20:47 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - Function: get_database_product_price_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_codeG55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - 127.0.0.1 - - [26/Aug/2019 11:20:47] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/price HTTP/1.1" 200 -
+26-Aug-19 11:20:47 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - Function: get_database_product_state_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 -search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - 127.0.0.1 - - [26/Aug/2019 11:20:47] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/state HTTP/1.1" 200 -
+26-Aug-19 11:20:47 - Function: get_product_category_match - When: Getting - Message: '[{"_id": {"$oid": "5cf16299aee7b829843cf73d"}}]' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - Function: get_database_product_category_filter_front - When: Getting - Message: Each element of the 'pipeline' array must be an object - Arguments: store_id: 5d6056b7753bf81094bc45e8 - store_code: G55 - search_word: biscuit - search_type: CATEGORY
+26-Aug-19 11:20:47 - 127.0.0.1 - - [26/Aug/2019 11:20:47] "GET /webapi/product_filters_front/G55/biscuit/CATEGORY/CATEGORY HTTP/1.1" 200 -
+26-Aug-19 11:20:47 - 127.0.0.1 - - [26/Aug/2019 11:20:47] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+26-Aug-19 11:26:16 - 127.0.0.1 - - [26/Aug/2019 11:26:16] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:26:16 - 127.0.0.1 - - [26/Aug/2019 11:26:16] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:26:16 - 127.0.0.1 - - [26/Aug/2019 11:26:16] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:26:16 - 127.0.0.1 - - [26/Aug/2019 11:26:16] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:26:56 - 127.0.0.1 - - [26/Aug/2019 11:26:56] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:26:56 - 127.0.0.1 - - [26/Aug/2019 11:26:56] "GET /webapi/stores_front/All?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:27:03 - 127.0.0.1 - - [26/Aug/2019 11:27:03] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:27:03 - 127.0.0.1 - - [26/Aug/2019 11:27:03] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:27:03 - 127.0.0.1 - - [26/Aug/2019 11:27:03] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:27:09 - 127.0.0.1 - - [26/Aug/2019 11:27:09] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:27:09 - 127.0.0.1 - - [26/Aug/2019 11:27:09] "GET /webapi/stores_front/All?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:27:12 - 127.0.0.1 - - [26/Aug/2019 11:27:12] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:27:12 - 127.0.0.1 - - [26/Aug/2019 11:27:12] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:27:12 - 127.0.0.1 - - [26/Aug/2019 11:27:12] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:27:31 - 127.0.0.1 - - [26/Aug/2019 11:27:31] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:27:35 - 127.0.0.1 - - [26/Aug/2019 11:27:35] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:27:35 - 127.0.0.1 - - [26/Aug/2019 11:27:35] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:27:35 - 127.0.0.1 - - [26/Aug/2019 11:27:35] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:28:48 - 127.0.0.1 - - [26/Aug/2019 11:28:48] "GET /webapi/session HTTP/1.1" 404 -
+26-Aug-19 11:28:48 - 127.0.0.1 - - [26/Aug/2019 11:28:48] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:28:48 - 127.0.0.1 - - [26/Aug/2019 11:28:48] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:28:48 - 127.0.0.1 - - [26/Aug/2019 11:28:48] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:28:48 - 127.0.0.1 - - [26/Aug/2019 11:28:48] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:28:58 - 127.0.0.1 - - [26/Aug/2019 11:28:58] "GET /webapi/session HTTP/1.1" 404 -
+26-Aug-19 11:28:58 - 127.0.0.1 - - [26/Aug/2019 11:28:58] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:28:58 - 127.0.0.1 - - [26/Aug/2019 11:28:58] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:28:58 - 127.0.0.1 - - [26/Aug/2019 11:28:58] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:29:54 - 127.0.0.1 - - [26/Aug/2019 11:29:54] "GET /webapi/session HTTP/1.1" 404 -
+26-Aug-19 11:29:54 - 127.0.0.1 - - [26/Aug/2019 11:29:54] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:29:54 - 127.0.0.1 - - [26/Aug/2019 11:29:54] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:29:54 - 127.0.0.1 - - [26/Aug/2019 11:29:54] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:29:54 - 127.0.0.1 - - [26/Aug/2019 11:29:54] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:32:36 - 127.0.0.1 - - [26/Aug/2019 11:32:36] "GET /webapi/session HTTP/1.1" 404 -
+26-Aug-19 11:32:36 - 127.0.0.1 - - [26/Aug/2019 11:32:36] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:32:36 - 127.0.0.1 - - [26/Aug/2019 11:32:36] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:32:36 - 127.0.0.1 - - [26/Aug/2019 11:32:36] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:32:36 - 127.0.0.1 - - [26/Aug/2019 11:32:36] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:36:01 - 127.0.0.1 - - [26/Aug/2019 11:36:01] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:36:01 - 127.0.0.1 - - [26/Aug/2019 11:36:01] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:36:01 - 127.0.0.1 - - [26/Aug/2019 11:36:01] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:36:01 - 127.0.0.1 - - [26/Aug/2019 11:36:01] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:36:01 - 127.0.0.1 - - [26/Aug/2019 11:36:01] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:37:11 - 127.0.0.1 - - [26/Aug/2019 11:37:11] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:37:11 - 127.0.0.1 - - [26/Aug/2019 11:37:11] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:37:11 - 127.0.0.1 - - [26/Aug/2019 11:37:11] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:37:11 - 127.0.0.1 - - [26/Aug/2019 11:37:11] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:37:11 - 127.0.0.1 - - [26/Aug/2019 11:37:11] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:38:10 - 127.0.0.1 - - [26/Aug/2019 11:38:10] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:38:10 - 127.0.0.1 - - [26/Aug/2019 11:38:10] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:38:10 - 127.0.0.1 - - [26/Aug/2019 11:38:10] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:38:10 - 127.0.0.1 - - [26/Aug/2019 11:38:10] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:38:10 - 127.0.0.1 - - [26/Aug/2019 11:38:10] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:39:24 - 127.0.0.1 - - [26/Aug/2019 11:39:24] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:39:24 - 127.0.0.1 - - [26/Aug/2019 11:39:24] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+26-Aug-19 11:39:24 - 127.0.0.1 - - [26/Aug/2019 11:39:24] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+26-Aug-19 11:39:24 - 127.0.0.1 - - [26/Aug/2019 11:39:24] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+26-Aug-19 11:39:25 - 127.0.0.1 - - [26/Aug/2019 11:39:25] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:40:19 - 127.0.0.1 - - [26/Aug/2019 11:40:19] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:40:19 - 127.0.0.1 - - [26/Aug/2019 11:40:19] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:40:31 - 127.0.0.1 - - [26/Aug/2019 11:40:31] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:40:35 - 127.0.0.1 - - [26/Aug/2019 11:40:35] "GET /webapi/g55_session/ HTTP/1.1" 404 -
+26-Aug-19 11:40:45 - 127.0.0.1 - - [26/Aug/2019 11:40:45] "GET /webapi/g55_session/ HTTP/1.1" 404 -
+26-Aug-19 11:40:56 - 127.0.0.1 - - [26/Aug/2019 11:40:56] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:41:06 - 127.0.0.1 - - [26/Aug/2019 11:41:06] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:41:29 - 127.0.0.1 - - [26/Aug/2019 11:41:29] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:41:42 - 127.0.0.1 - - [26/Aug/2019 11:41:42] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:42:32 - 127.0.0.1 - - [26/Aug/2019 11:42:32] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:42:40 - 127.0.0.1 - - [26/Aug/2019 11:42:40] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:42:45 - 127.0.0.1 - - [26/Aug/2019 11:42:45] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:42:45 - 127.0.0.1 - - [26/Aug/2019 11:42:45] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:43:23 - 127.0.0.1 - - [26/Aug/2019 11:43:23] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:43:24 - 127.0.0.1 - - [26/Aug/2019 11:43:24] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:43:24 - 127.0.0.1 - - [26/Aug/2019 11:43:24] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:43:28 - 127.0.0.1 - - [26/Aug/2019 11:43:28] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:43:28 - 127.0.0.1 - - [26/Aug/2019 11:43:28] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:43:52 - 127.0.0.1 - - [26/Aug/2019 11:43:52] "GET /webapi/merda HTTP/1.1" 404 -
+26-Aug-19 11:43:55 - 127.0.0.1 - - [26/Aug/2019 11:43:55] "GET /webapi/merda HTTP/1.1" 404 -
+26-Aug-19 11:43:55 - 127.0.0.1 - - [26/Aug/2019 11:43:55] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:43:58 - 127.0.0.1 - - [26/Aug/2019 11:43:58] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:44:11 - 127.0.0.1 - - [26/Aug/2019 11:44:11] "GET /webapi/merda HTTP/1.1" 404 -
+26-Aug-19 11:44:58 - 127.0.0.1 - - [26/Aug/2019 11:44:58] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:45:11 - 127.0.0.1 - - [26/Aug/2019 11:45:11] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:45:47 - 127.0.0.1 - - [26/Aug/2019 11:45:47] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:45:47 - 127.0.0.1 - - [26/Aug/2019 11:45:47] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:45:58 - 127.0.0.1 - - [26/Aug/2019 11:45:58] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:45:59 - 127.0.0.1 - - [26/Aug/2019 11:45:59] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:45:59 - 127.0.0.1 - - [26/Aug/2019 11:45:59] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:46:00 - 127.0.0.1 - - [26/Aug/2019 11:46:00] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:46:00 - 127.0.0.1 - - [26/Aug/2019 11:46:00] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:46:00 - 127.0.0.1 - - [26/Aug/2019 11:46:00] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:46:00 - 127.0.0.1 - - [26/Aug/2019 11:46:00] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:46:00 - 127.0.0.1 - - [26/Aug/2019 11:46:00] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:46:00 - 127.0.0.1 - - [26/Aug/2019 11:46:00] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:47:26 - 127.0.0.1 - - [26/Aug/2019 11:47:26] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:47:26 - 127.0.0.1 - - [26/Aug/2019 11:47:26] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:47:43 - 127.0.0.1 - - [26/Aug/2019 11:47:43] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:48:03 - 127.0.0.1 - - [26/Aug/2019 11:48:03] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:48:08 - 127.0.0.1 - - [26/Aug/2019 11:48:08] "GET /webapi HTTP/1.1" 404 -
+26-Aug-19 11:48:15 - 127.0.0.1 - - [26/Aug/2019 11:48:15] "GET /webapi/test HTTP/1.1" 404 -
+26-Aug-19 11:50:17 - 127.0.0.1 - - [26/Aug/2019 11:50:17] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:50:26 - 127.0.0.1 - - [26/Aug/2019 11:50:26] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 11:50:38 - 127.0.0.1 - - [26/Aug/2019 11:50:38] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:52:50 - 127.0.0.1 - - [26/Aug/2019 11:52:50] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:52:50 - 127.0.0.1 - - [26/Aug/2019 11:52:50] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:52:54 - 127.0.0.1 - - [26/Aug/2019 11:52:54] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:52:54 - 127.0.0.1 - - [26/Aug/2019 11:52:54] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:53:45 - 127.0.0.1 - - [26/Aug/2019 11:53:45] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:53:45 - 127.0.0.1 - - [26/Aug/2019 11:53:45] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:53:51 - 127.0.0.1 - - [26/Aug/2019 11:53:51] "GET / HTTP/1.1" 200 -
+26-Aug-19 11:54:02 - 127.0.0.1 - - [26/Aug/2019 11:54:02] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:57:25 - 127.0.0.1 - - [26/Aug/2019 11:57:25] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:57:25 - 127.0.0.1 - - [26/Aug/2019 11:57:25] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 11:57:47 - 127.0.0.1 - - [26/Aug/2019 11:57:47] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 11:57:47 - 127.0.0.1 - - [26/Aug/2019 11:57:47] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 12:01:01 - 127.0.0.1 - - [26/Aug/2019 12:01:01] "GET / HTTP/1.1" 200 -
+26-Aug-19 12:01:10 - 127.0.0.1 - - [26/Aug/2019 12:01:10] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 12:01:20 - 127.0.0.1 - - [26/Aug/2019 12:01:20] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 12:01:33 - Exception on /webapi/freight_type [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 113, in freight_type
+    else:
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:01:33 - 127.0.0.1 - - [26/Aug/2019 12:01:33] "GET /webapi/freight_type HTTP/1.1" 500 -
+26-Aug-19 12:01:48 - Exception on /webapi/freight_type [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 113, in freight_type
+    else:
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:01:48 - 127.0.0.1 - - [26/Aug/2019 12:01:48] "GET /webapi/freight_type HTTP/1.1" 500 -
+26-Aug-19 12:02:14 - Exception on /webapi/categories [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 129, in category_front
+    """Handle the delete request"""
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:02:14 - 127.0.0.1 - - [26/Aug/2019 12:02:14] "GET /webapi/categories HTTP/1.1" 500 -
+26-Aug-19 12:02:30 - Exception on /webapi/categories [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 129, in category_front
+    """Handle the delete request"""
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:02:30 - 127.0.0.1 - - [26/Aug/2019 12:02:30] "GET /webapi/categories HTTP/1.1" 500 -
+26-Aug-19 12:02:30 - 127.0.0.1 - - [26/Aug/2019 12:02:30] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 12:02:55 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:02:55 - 127.0.0.1 - - [26/Aug/2019 12:02:55] "GET /webapi/category HTTP/1.1" 500 -
+26-Aug-19 12:02:57 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:02:57 - 127.0.0.1 - - [26/Aug/2019 12:02:57] "GET /webapi/category HTTP/1.1" 500 -
+26-Aug-19 12:02:57 - 127.0.0.1 - - [26/Aug/2019 12:02:57] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 12:02:58 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:02:58 - 127.0.0.1 - - [26/Aug/2019 12:02:58] "GET /webapi/category HTTP/1.1" 500 -
+26-Aug-19 12:02:58 - 127.0.0.1 - - [26/Aug/2019 12:02:58] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 12:02:58 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:02:58 - 127.0.0.1 - - [26/Aug/2019 12:02:58] "GET /webapi/category HTTP/1.1" 500 -
+26-Aug-19 12:02:58 - 127.0.0.1 - - [26/Aug/2019 12:02:58] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 12:03:03 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:03:03 - 127.0.0.1 - - [26/Aug/2019 12:03:03] "GET /webapi/category HTTP/1.1" 500 -
+26-Aug-19 12:06:18 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:06:18 - 127.0.0.1 - - [26/Aug/2019 12:06:18] "GET /webapi/category?total_records=0&page=1&search=ok HTTP/1.1" 500 -
+26-Aug-19 12:06:21 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:06:21 - 127.0.0.1 - - [26/Aug/2019 12:06:21] "GET /webapi/category?total_records=0&page=1&search=ok HTTP/1.1" 500 -
+26-Aug-19 12:06:21 - 127.0.0.1 - - [26/Aug/2019 12:06:21] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 12:07:00 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:07:00 - 127.0.0.1 - - [26/Aug/2019 12:07:00] "GET /webapi/category?total_records=0&page=1&search=ok HTTP/1.1" 500 -
+26-Aug-19 12:07:02 - Exception on /webapi/category [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 157, in category
+    elif request.method == 'DELETE':
+OSError: [Errno 22] Invalid argument
+26-Aug-19 12:07:02 - 127.0.0.1 - - [26/Aug/2019 12:07:02] "GET /webapi/category?total_records=0&page=1&search=ok HTTP/1.1" 500 -
+26-Aug-19 12:07:02 - 127.0.0.1 - - [26/Aug/2019 12:07:02] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 12:07:56 - 127.0.0.1 - - [26/Aug/2019 12:07:56] "GET / HTTP/1.1" 200 -
+26-Aug-19 12:07:57 - 127.0.0.1 - - [26/Aug/2019 12:07:57] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 12:08:04 - 127.0.0.1 - - [26/Aug/2019 12:08:04] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 12:08:15 - 127.0.0.1 - - [26/Aug/2019 12:08:15] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 12:09:11 - 127.0.0.1 - - [26/Aug/2019 12:09:11] "GET /webapi/g55_session HTTP/1.1" 404 -
+26-Aug-19 12:09:11 - 127.0.0.1 - - [26/Aug/2019 12:09:11] "GET /favicon.ico HTTP/1.1" 404 -
+26-Aug-19 13:20:01 - 127.0.0.1 - - [26/Aug/2019 13:20:01] "GET / HTTP/1.1" 200 -
+26-Aug-19 13:20:05 - 127.0.0.1 - - [26/Aug/2019 13:20:05] "GET /webapi/guest HTTP/1.1" 200 -
+26-Aug-19 13:20:13 - 127.0.0.1 - - [26/Aug/2019 13:20:13] "GET /webapi/g55_session HTTP/1.1" 404 -

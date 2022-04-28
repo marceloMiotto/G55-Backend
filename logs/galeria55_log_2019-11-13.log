@@ -1,0 +1,2 @@
+13-Nov-19 10:47:15 - Function: merge_database_profile - When: Updating - Message: 'history' - Arguments: {'user_id': '5d88f453aee7b825798b7ace', 'name': 'Teste', 'last_name': 'Teste1', 'cpf': '', 'cell': '', 'birthday': '', 'photo': '', 'addresses': [], 'ship_address': {}, 'bill_address': {}, 'flag_use_bill_address': 'N'}
+13-Nov-19 10:47:15 - 127.0.0.1 - - [13/Nov/2019 10:47:15] "POST /webapi/profile HTTP/1.1" 200 -

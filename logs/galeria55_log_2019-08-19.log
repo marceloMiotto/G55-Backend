@@ -1,0 +1,4 @@
+19-Aug-19 13:40:08 - Function: get_stores_front_one - When: Handling - Message: 'DatabaseStoresService' object has no attribute 'get_database_stores_front_one' - Arguments: store_code: plie_test
+19-Aug-19 14:31:36 - Function: get_categories_front - When: Handling - Message: Cannot encode object: <pymongo.command_cursor.CommandCursor object at 0x051F8DD0> - Arguments: store_code: plie_test
+19-Aug-19 14:31:36 - 127.0.0.1 - - [19/Aug/2019 14:31:36] "GET /webapi/categories?sc=plie_test HTTP/1.1" 200 -
+19-Aug-19 14:31:36 - 127.0.0.1 - - [19/Aug/2019 14:31:36] "GET /webapi/products_covers?s=1 HTTP/1.1" 200 -

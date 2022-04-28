@@ -1,0 +1,12 @@
+22-Oct-19 22:47:30 - Function: get_database_messages - When: Getting - Message: if no direction is specified, key_or_list must be an instance of list - Arguments: customer_id: 5c9d323da5a4bd34ecf9abc2store_id: 5c9d323da5a4bd34ecf9abc3
+22-Oct-19 23:24:29 - Function: post_database_message_front - When: Inserting - Message: 'customer_id' - Arguments: {'user_id': '5d729ddeaee7b89398d77b08'}
+22-Oct-19 23:24:29 - 127.0.0.1 - - [22/Oct/2019 23:24:29] "POST /webapi/user_message HTTP/1.1" 200 -
+22-Oct-19 23:24:29 - 127.0.0.1 - - [22/Oct/2019 23:24:29] "GET /webapi/message_user_session/5d729ddeaee7b89398d77b08 HTTP/1.1" 200 -
+22-Oct-19 23:34:08 - Function: post_database_message_front - When: Inserting - Message: 'customer_id' - Arguments: {'user_id': '5d729ddeaee7b89398d77b08'}
+22-Oct-19 23:34:08 - 127.0.0.1 - - [22/Oct/2019 23:34:08] "POST /webapi/user_message HTTP/1.1" 200 -
+22-Oct-19 23:34:08 - 127.0.0.1 - - [22/Oct/2019 23:34:08] "GET /webapi/message_user_session/5d729ddeaee7b89398d77b08 HTTP/1.1" 200 -
+22-Oct-19 23:34:29 - Function: post_database_message_front - When: Inserting - Message: 'customer_id' - Arguments: {'user_id': '5d729ddeaee7b89398d77b08'}
+22-Oct-19 23:34:29 - 127.0.0.1 - - [22/Oct/2019 23:34:29] "POST /webapi/user_message HTTP/1.1" 200 -
+22-Oct-19 23:34:29 - 127.0.0.1 - - [22/Oct/2019 23:34:29] "GET /webapi/message_user_session/5d729ddeaee7b89398d77b08 HTTP/1.1" 200 -
+22-Oct-19 23:39:37 - 127.0.0.1 - - [22/Oct/2019 23:39:37] "POST /webapi/add_message_user_session HTTP/1.1" 200 -
+22-Oct-19 23:39:49 - 127.0.0.1 - - [22/Oct/2019 23:39:49] "POST /webapi/user_message HTTP/1.1" 200 -

@@ -1,0 +1,74 @@
+11-Nov-19 13:33:30 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+11-Nov-19 13:33:30 - 127.0.0.1 - - [11/Nov/2019 13:33:30] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+11-Nov-19 13:36:26 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+11-Nov-19 13:36:26 - 127.0.0.1 - - [11/Nov/2019 13:36:26] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+11-Nov-19 13:39:55 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+11-Nov-19 13:39:55 - 127.0.0.1 - - [11/Nov/2019 13:39:55] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+11-Nov-19 13:40:40 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+11-Nov-19 13:40:40 - 127.0.0.1 - - [11/Nov/2019 13:40:40] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+11-Nov-19 13:48:36 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+11-Nov-19 13:48:36 - 127.0.0.1 - - [11/Nov/2019 13:48:36] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+11-Nov-19 13:53:57 - Function: get_database_authenticated_user - When: Getting - Message: 'favicon.ico' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string - Arguments: token: favicon.ico
+11-Nov-19 13:53:57 - 127.0.0.1 - - [11/Nov/2019 13:53:57] "GET /webapi/verify_token/favicon.ico HTTP/1.1" 200 -
+11-Nov-19 14:13:13 - 127.0.0.1 - - [11/Nov/2019 14:13:13] "GET /webapi/guest HTTP/1.1" 200 -
+11-Nov-19 14:13:40 - 127.0.0.1 - - [11/Nov/2019 14:13:40] "OPTIONS /webapi/create_user_account HTTP/1.1" 200 -
+11-Nov-19 14:13:40 - 127.0.0.1 - - [11/Nov/2019 14:13:40] "POST /webapi/create_user_account HTTP/1.1" 200 -
+11-Nov-19 14:13:40 - 127.0.0.1 - - [11/Nov/2019 14:13:40] "GET /webapi/verify_token/5cf952ebb5c5a70538425abe HTTP/1.1" 200 -
+11-Nov-19 14:13:40 - 127.0.0.1 - - [11/Nov/2019 14:13:40] "GET /webapi/profile/5dc996c4aee7b8346c7759f9 HTTP/1.1" 200 -
+11-Nov-19 14:14:03 - 127.0.0.1 - - [11/Nov/2019 14:14:03] "OPTIONS /webapi/profile HTTP/1.1" 200 -
+11-Nov-19 14:14:03 - Function: merge_database_profile - When: Updating - Message: 'history' - Arguments: {'user_id': '5dc996c4aee7b8346c7759f9', 'name': 'Message User 1', 'last_name': 'Test', 'cpf': '', 'cell': '', 'birthday': '', 'photo': '', 'addresses': [], 'ship_address': {}, 'bill_address': {}, 'flag_use_bill_address': 'N'}
+11-Nov-19 14:14:03 - 127.0.0.1 - - [11/Nov/2019 14:14:03] "POST /webapi/profile HTTP/1.1" 200 -
+11-Nov-19 14:14:48 - 127.0.0.1 - - [11/Nov/2019 14:14:48] "GET /webapi/profile/5d88f453aee7b825798b7ace HTTP/1.1" 200 -
+11-Nov-19 14:20:35 - 127.0.0.1 - - [11/Nov/2019 14:20:35] "GET /webapi/guest HTTP/1.1" 200 -
+11-Nov-19 14:21:01 - 127.0.0.1 - - [11/Nov/2019 14:21:01] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:21:01 - 127.0.0.1 - - [11/Nov/2019 14:21:01] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:22:11 - 127.0.0.1 - - [11/Nov/2019 14:22:11] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:22:11 - 127.0.0.1 - - [11/Nov/2019 14:22:11] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:23:26 - 127.0.0.1 - - [11/Nov/2019 14:23:26] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:23:26 - 127.0.0.1 - - [11/Nov/2019 14:23:26] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:24:22 - 127.0.0.1 - - [11/Nov/2019 14:24:22] "GET /webapi/guest HTTP/1.1" 200 -
+11-Nov-19 14:24:24 - 127.0.0.1 - - [11/Nov/2019 14:24:24] "GET /webapi/guest HTTP/1.1" 200 -
+11-Nov-19 14:24:37 - 127.0.0.1 - - [11/Nov/2019 14:24:37] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:24:37 - 127.0.0.1 - - [11/Nov/2019 14:24:37] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:24:49 - 127.0.0.1 - - [11/Nov/2019 14:24:49] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:24:49 - 127.0.0.1 - - [11/Nov/2019 14:24:49] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:28:11 - 127.0.0.1 - - [11/Nov/2019 14:28:11] "GET /webapi/g55_session HTTP/1.1" 200 -
+11-Nov-19 14:28:11 - 127.0.0.1 - - [11/Nov/2019 14:28:11] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+11-Nov-19 14:28:11 - 127.0.0.1 - - [11/Nov/2019 14:28:11] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+11-Nov-19 14:28:11 - 127.0.0.1 - - [11/Nov/2019 14:28:11] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+11-Nov-19 14:28:11 - 127.0.0.1 - - [11/Nov/2019 14:28:11] "GET /webapi/guest HTTP/1.1" 200 -
+11-Nov-19 14:28:18 - 127.0.0.1 - - [11/Nov/2019 14:28:18] "OPTIONS /webapi/products_covers/G55?s=2 HTTP/1.1" 200 -
+11-Nov-19 14:28:19 - 127.0.0.1 - - [11/Nov/2019 14:28:19] "GET /webapi/products_covers/G55?s=2 HTTP/1.1" 200 -
+11-Nov-19 14:28:22 - 127.0.0.1 - - [11/Nov/2019 14:28:22] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+11-Nov-19 14:28:22 - 127.0.0.1 - - [11/Nov/2019 14:28:22] "GET /webapi/stores_front/All?s=1 HTTP/1.1" 200 -
+11-Nov-19 14:28:24 - 127.0.0.1 - - [11/Nov/2019 14:28:24] "OPTIONS /webapi/stores_front/All?s=2 HTTP/1.1" 200 -
+11-Nov-19 14:28:24 - 127.0.0.1 - - [11/Nov/2019 14:28:24] "GET /webapi/stores_front/All?s=2 HTTP/1.1" 200 -
+11-Nov-19 14:28:26 - 127.0.0.1 - - [11/Nov/2019 14:28:26] "OPTIONS /webapi/stores_front/All?s=3 HTTP/1.1" 200 -
+11-Nov-19 14:28:27 - 127.0.0.1 - - [11/Nov/2019 14:28:27] "GET /webapi/stores_front/All?s=3 HTTP/1.1" 200 -
+11-Nov-19 14:28:29 - 127.0.0.1 - - [11/Nov/2019 14:28:29] "GET /webapi/store_front_one/loja_teste_3 HTTP/1.1" 200 -
+11-Nov-19 14:28:29 - 127.0.0.1 - - [11/Nov/2019 14:28:29] "GET /webapi/banners/loja_teste_3 HTTP/1.1" 200 -
+11-Nov-19 14:28:29 - 127.0.0.1 - - [11/Nov/2019 14:28:29] "GET /webapi/store_front_one/loja_teste_3 HTTP/1.1" 200 -
+11-Nov-19 14:28:30 - 127.0.0.1 - - [11/Nov/2019 14:28:30] "GET /webapi/categories?sc=loja_teste_3 HTTP/1.1" 200 -
+11-Nov-19 14:28:30 - 127.0.0.1 - - [11/Nov/2019 14:28:30] "GET /webapi/banners/loja_teste_3 HTTP/1.1" 200 -
+11-Nov-19 14:28:30 - 127.0.0.1 - - [11/Nov/2019 14:28:30] "GET /webapi/products_covers/loja_teste_3?s=1 HTTP/1.1" 200 -
+11-Nov-19 14:28:30 - 127.0.0.1 - - [11/Nov/2019 14:28:30] "GET /webapi/categories?sc=loja_teste_3 HTTP/1.1" 200 -
+11-Nov-19 14:28:30 - 127.0.0.1 - - [11/Nov/2019 14:28:30] "GET /webapi/products_covers/loja_teste_3?s=1 HTTP/1.1" 200 -
+11-Nov-19 14:28:37 - 127.0.0.1 - - [11/Nov/2019 14:28:37] "GET /webapi/g55_session HTTP/1.1" 200 -
+11-Nov-19 14:28:37 - 127.0.0.1 - - [11/Nov/2019 14:28:37] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+11-Nov-19 14:28:37 - 127.0.0.1 - - [11/Nov/2019 14:28:37] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+11-Nov-19 14:28:37 - 127.0.0.1 - - [11/Nov/2019 14:28:37] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+11-Nov-19 14:28:42 - 127.0.0.1 - - [11/Nov/2019 14:28:42] "GET /webapi/artists_all_front?s=1 HTTP/1.1" 200 -
+11-Nov-19 14:28:42 - 127.0.0.1 - - [11/Nov/2019 14:28:42] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+11-Nov-19 14:29:01 - 127.0.0.1 - - [11/Nov/2019 14:29:01] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:29:01 - 127.0.0.1 - - [11/Nov/2019 14:29:01] "POST /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:55:07 - 127.0.0.1 - - [11/Nov/2019 14:55:07] "GET /webapi/g55_session HTTP/1.1" 200 -
+11-Nov-19 14:55:07 - 127.0.0.1 - - [11/Nov/2019 14:55:07] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+11-Nov-19 14:55:07 - 127.0.0.1 - - [11/Nov/2019 14:55:07] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+11-Nov-19 14:55:07 - 127.0.0.1 - - [11/Nov/2019 14:55:07] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+11-Nov-19 14:55:07 - 127.0.0.1 - - [11/Nov/2019 14:55:07] "GET /webapi/guest HTTP/1.1" 200 -
+11-Nov-19 14:55:10 - 127.0.0.1 - - [11/Nov/2019 14:55:10] "GET /webapi/g55_session HTTP/1.1" 200 -
+11-Nov-19 14:55:10 - 127.0.0.1 - - [11/Nov/2019 14:55:10] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+11-Nov-19 14:55:10 - 127.0.0.1 - - [11/Nov/2019 14:55:10] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+11-Nov-19 14:55:10 - 127.0.0.1 - - [11/Nov/2019 14:55:10] "GET /webapi/products_covers/G55?s=1 HTTP/1.1" 200 -
+11-Nov-19 14:55:43 - 127.0.0.1 - - [11/Nov/2019 14:55:43] "OPTIONS /webapi/authenticate_user HTTP/1.1" 200 -
+11-Nov-19 14:55:43 - 127.0.0.1 - - [11/Nov/2019 14:55:43] "POST /webapi/authenticate_user HTTP/1.1" 200 -

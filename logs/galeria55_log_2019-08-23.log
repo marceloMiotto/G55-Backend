@@ -1,0 +1,308 @@
+23-Aug-19 14:19:25 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 14:19:25 - 127.0.0.1 - - [23/Aug/2019 14:19:25] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 14:19:25 - 127.0.0.1 - - [23/Aug/2019 14:19:25] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 14:19:25 - 127.0.0.1 - - [23/Aug/2019 14:19:25] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 14:19:32 - 127.0.0.1 - - [23/Aug/2019 14:19:32] "OPTIONS /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 14:19:32 - 127.0.0.1 - - [23/Aug/2019 14:19:32] "GET /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 14:19:44 - 127.0.0.1 - - [23/Aug/2019 14:19:44] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 14:19:44 - 127.0.0.1 - - [23/Aug/2019 14:19:44] "GET /webapi/stores_front/All?s=1 HTTP/1.1" 200 -
+23-Aug-19 14:19:46 - 127.0.0.1 - - [23/Aug/2019 14:19:46] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+23-Aug-19 14:19:46 - 127.0.0.1 - - [23/Aug/2019 14:19:46] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 17:53:11 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 17:53:11 - 127.0.0.1 - - [23/Aug/2019 17:53:11] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 17:53:11 - 127.0.0.1 - - [23/Aug/2019 17:53:11] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 17:53:11 - 127.0.0.1 - - [23/Aug/2019 17:53:11] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 17:53:11 - 127.0.0.1 - - [23/Aug/2019 17:53:11] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 17:53:17 - 127.0.0.1 - - [23/Aug/2019 17:53:17] "OPTIONS /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 17:53:17 - 127.0.0.1 - - [23/Aug/2019 17:53:17] "GET /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:00:10 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 18:00:10 - 127.0.0.1 - - [23/Aug/2019 18:00:10] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 18:00:10 - 127.0.0.1 - - [23/Aug/2019 18:00:10] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:00:10 - 127.0.0.1 - - [23/Aug/2019 18:00:10] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:00:10 - 127.0.0.1 - - [23/Aug/2019 18:00:10] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 18:02:36 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 18:02:36 - 127.0.0.1 - - [23/Aug/2019 18:02:36] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 18:02:36 - 127.0.0.1 - - [23/Aug/2019 18:02:36] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:02:36 - 127.0.0.1 - - [23/Aug/2019 18:02:36] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:02:36 - 127.0.0.1 - - [23/Aug/2019 18:02:36] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 18:02:46 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 18:02:46 - 127.0.0.1 - - [23/Aug/2019 18:02:46] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 18:02:46 - 127.0.0.1 - - [23/Aug/2019 18:02:46] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:02:46 - 127.0.0.1 - - [23/Aug/2019 18:02:46] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:02:47 - 127.0.0.1 - - [23/Aug/2019 18:02:47] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:06:02 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 18:06:02 - 127.0.0.1 - - [23/Aug/2019 18:06:02] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 18:06:02 - 127.0.0.1 - - [23/Aug/2019 18:06:02] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:06:02 - 127.0.0.1 - - [23/Aug/2019 18:06:02] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:06:02 - 127.0.0.1 - - [23/Aug/2019 18:06:02] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 18:08:08 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 18:08:08 - 127.0.0.1 - - [23/Aug/2019 18:08:08] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 18:08:08 - 127.0.0.1 - - [23/Aug/2019 18:08:08] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:08:08 - 127.0.0.1 - - [23/Aug/2019 18:08:08] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:08:09 - 127.0.0.1 - - [23/Aug/2019 18:08:09] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:08:20 - 127.0.0.1 - - [23/Aug/2019 18:08:20] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:09:18 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 18:09:18 - 127.0.0.1 - - [23/Aug/2019 18:09:18] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 18:09:18 - 127.0.0.1 - - [23/Aug/2019 18:09:18] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:09:18 - 127.0.0.1 - - [23/Aug/2019 18:09:18] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:09:18 - 127.0.0.1 - - [23/Aug/2019 18:09:18] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 18:16:12 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 18:16:12 - 127.0.0.1 - - [23/Aug/2019 18:16:12] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 18:16:12 - 127.0.0.1 - - [23/Aug/2019 18:16:12] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:16:12 - 127.0.0.1 - - [23/Aug/2019 18:16:12] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:16:31 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: []
+23-Aug-19 18:16:31 - 127.0.0.1 - - [23/Aug/2019 18:16:31] "GET /webapi/banners/galeria55 HTTP/1.1" 200 -
+23-Aug-19 18:16:31 - 127.0.0.1 - - [23/Aug/2019 18:16:31] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:16:31 - 127.0.0.1 - - [23/Aug/2019 18:16:31] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:18:31 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: [{"_id": {"$oid": "5d6056b7753bf81094bc45e8"}}]
+23-Aug-19 18:18:31 - 127.0.0.1 - - [23/Aug/2019 18:18:31] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:18:31 - 127.0.0.1 - - [23/Aug/2019 18:18:31] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:18:31 - 127.0.0.1 - - [23/Aug/2019 18:18:31] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:18:31 - 127.0.0.1 - - [23/Aug/2019 18:18:31] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 18:20:01 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: [{"_id": {"$oid": "5d6056b7753bf81094bc45e8"}}]
+23-Aug-19 18:20:01 - 127.0.0.1 - - [23/Aug/2019 18:20:01] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:20:01 - 127.0.0.1 - - [23/Aug/2019 18:20:01] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:20:01 - 127.0.0.1 - - [23/Aug/2019 18:20:01] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:20:23 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: [{"_id": {"$oid": "5d6056b7753bf81094bc45e8"}}]
+23-Aug-19 18:20:23 - 127.0.0.1 - - [23/Aug/2019 18:20:23] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:20:23 - 127.0.0.1 - - [23/Aug/2019 18:20:23] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:20:23 - 127.0.0.1 - - [23/Aug/2019 18:20:23] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:20:23 - 127.0.0.1 - - [23/Aug/2019 18:20:23] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 18:20:29 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: [{"_id": {"$oid": "5d6056b7753bf81094bc45e8"}}]
+23-Aug-19 18:20:29 - 127.0.0.1 - - [23/Aug/2019 18:20:29] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:20:29 - 127.0.0.1 - - [23/Aug/2019 18:20:29] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:20:29 - 127.0.0.1 - - [23/Aug/2019 18:20:29] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:20:30 - 127.0.0.1 - - [23/Aug/2019 18:20:30] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:22:17 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: [{"_id": {"$oid": "5d6056b7753bf81094bc45e8"}}]
+23-Aug-19 18:22:17 - 127.0.0.1 - - [23/Aug/2019 18:22:17] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:22:17 - 127.0.0.1 - - [23/Aug/2019 18:22:17] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:22:17 - 127.0.0.1 - - [23/Aug/2019 18:22:17] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:23:28 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: [{"_id": {"$oid": "5d6056b7753bf81094bc45e8"}}]
+23-Aug-19 18:23:28 - 127.0.0.1 - - [23/Aug/2019 18:23:28] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:23:28 - 127.0.0.1 - - [23/Aug/2019 18:23:28] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:23:28 - 127.0.0.1 - - [23/Aug/2019 18:23:28] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:24:44 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: [{"_id": {"$oid": "5d6056b7753bf81094bc45e8"}}]
+23-Aug-19 18:24:44 - 127.0.0.1 - - [23/Aug/2019 18:24:44] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:24:44 - 127.0.0.1 - - [23/Aug/2019 18:24:44] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:24:44 - 127.0.0.1 - - [23/Aug/2019 18:24:44] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:25:50 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: <pymongo.cursor.Cursor object at 0x049C8D90>
+23-Aug-19 18:25:50 - 127.0.0.1 - - [23/Aug/2019 18:25:50] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:25:50 - 127.0.0.1 - - [23/Aug/2019 18:25:50] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:25:50 - 127.0.0.1 - - [23/Aug/2019 18:25:50] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:26:17 - Function: get_banners_front - When: Handling - Message: tuple index out of range - Arguments: store_id: <pymongo.cursor.Cursor object at 0x047A9CF0>
+23-Aug-19 18:26:17 - 127.0.0.1 - - [23/Aug/2019 18:26:17] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:26:17 - 127.0.0.1 - - [23/Aug/2019 18:26:17] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:26:17 - 127.0.0.1 - - [23/Aug/2019 18:26:17] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:27:51 - Function: get_stores_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:27:51 - 127.0.0.1 - - [23/Aug/2019 18:27:51] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:42:09 - Function: get_stores_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:42:09 - 127.0.0.1 - - [23/Aug/2019 18:42:09] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:43:20 - 127.0.0.1 - - [23/Aug/2019 18:43:20] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:43:20 - 127.0.0.1 - - [23/Aug/2019 18:43:20] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:43:20 - 127.0.0.1 - - [23/Aug/2019 18:43:20] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:43:20 - 127.0.0.1 - - [23/Aug/2019 18:43:20] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 18:43:24 - 127.0.0.1 - - [23/Aug/2019 18:43:24] "OPTIONS /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:43:24 - 127.0.0.1 - - [23/Aug/2019 18:43:24] "GET /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:44:38 - 127.0.0.1 - - [23/Aug/2019 18:44:38] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:44:38 - 127.0.0.1 - - [23/Aug/2019 18:44:38] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:44:38 - 127.0.0.1 - - [23/Aug/2019 18:44:38] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:44:38 - 127.0.0.1 - - [23/Aug/2019 18:44:38] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 18:44:44 - 127.0.0.1 - - [23/Aug/2019 18:44:44] "OPTIONS /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:44:44 - 127.0.0.1 - - [23/Aug/2019 18:44:44] "GET /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:45:17 - 127.0.0.1 - - [23/Aug/2019 18:45:17] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:45:17 - 127.0.0.1 - - [23/Aug/2019 18:45:17] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:45:17 - 127.0.0.1 - - [23/Aug/2019 18:45:17] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:45:24 - 127.0.0.1 - - [23/Aug/2019 18:45:24] "OPTIONS /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:45:24 - 127.0.0.1 - - [23/Aug/2019 18:45:24] "GET /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:45:28 - 127.0.0.1 - - [23/Aug/2019 18:45:28] "OPTIONS /webapi/products_covers/ALL?s=3 HTTP/1.1" 200 -
+23-Aug-19 18:45:28 - 127.0.0.1 - - [23/Aug/2019 18:45:28] "GET /webapi/products_covers/ALL?s=3 HTTP/1.1" 200 -
+23-Aug-19 18:45:33 - 127.0.0.1 - - [23/Aug/2019 18:45:33] "OPTIONS /webapi/products_covers/ALL?s=4 HTTP/1.1" 200 -
+23-Aug-19 18:45:33 - 127.0.0.1 - - [23/Aug/2019 18:45:33] "GET /webapi/products_covers/ALL?s=4 HTTP/1.1" 200 -
+23-Aug-19 18:46:15 - 127.0.0.1 - - [23/Aug/2019 18:46:15] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:46:15 - 127.0.0.1 - - [23/Aug/2019 18:46:15] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:46:15 - 127.0.0.1 - - [23/Aug/2019 18:46:15] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:46:16 - 127.0.0.1 - - [23/Aug/2019 18:46:16] "OPTIONS /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:46:16 - 127.0.0.1 - - [23/Aug/2019 18:46:16] "GET /webapi/products_covers/ALL?s=2 HTTP/1.1" 200 -
+23-Aug-19 18:46:18 - 127.0.0.1 - - [23/Aug/2019 18:46:18] "OPTIONS /webapi/products_covers/ALL?s=3 HTTP/1.1" 200 -
+23-Aug-19 18:46:18 - 127.0.0.1 - - [23/Aug/2019 18:46:18] "GET /webapi/products_covers/ALL?s=3 HTTP/1.1" 200 -
+23-Aug-19 18:46:21 - 127.0.0.1 - - [23/Aug/2019 18:46:21] "OPTIONS /webapi/products_covers/ALL?s=4 HTTP/1.1" 200 -
+23-Aug-19 18:46:21 - 127.0.0.1 - - [23/Aug/2019 18:46:21] "GET /webapi/products_covers/ALL?s=4 HTTP/1.1" 200 -
+23-Aug-19 18:46:39 - 127.0.0.1 - - [23/Aug/2019 18:46:39] "GET /webapi/banners/G55 HTTP/1.1" 200 -
+23-Aug-19 18:46:39 - 127.0.0.1 - - [23/Aug/2019 18:46:39] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:46:39 - 127.0.0.1 - - [23/Aug/2019 18:46:39] "GET /webapi/products_covers/ALL?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:46:43 - 127.0.0.1 - - [23/Aug/2019 18:46:43] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:46:43 - 127.0.0.1 - - [23/Aug/2019 18:46:43] "GET /webapi/product_search_front/ALL/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:46:43 - 127.0.0.1 - - [23/Aug/2019 18:46:43] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 18:46:43 - Exception on /webapi/product_filters_front/ALL/biscuit/SEARCH/public [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 487, in product_filters_front
+    search_type=search_type)
+TypeError: get_product_public_filter_front() got an unexpected keyword argument 'store_id'
+23-Aug-19 18:46:43 - 127.0.0.1 - - [23/Aug/2019 18:46:43] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/public HTTP/1.1" 500 -
+23-Aug-19 18:46:43 - Function: get_stores_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:46:43 - 127.0.0.1 - - [23/Aug/2019 18:46:43] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:47:42 - 127.0.0.1 - - [23/Aug/2019 18:47:42] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:47:42 - 127.0.0.1 - - [23/Aug/2019 18:47:42] "GET /webapi/product_search_front/ALL/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:47:42 - 127.0.0.1 - - [23/Aug/2019 18:47:42] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 18:47:42 - Exception on /webapi/product_filters_front/ALL/biscuit/SEARCH/public [GET]
+Traceback (most recent call last):
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\front\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\marcelo.miotto\OneDrive\Documents\ProjetoAbelha\DEV\G55\webapis\app.py", line 487, in product_filters_front
+    search_type=search_type)
+TypeError: get_product_public_filter_front() got an unexpected keyword argument 'store_id'
+23-Aug-19 18:47:42 - 127.0.0.1 - - [23/Aug/2019 18:47:42] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/public HTTP/1.1" 500 -
+23-Aug-19 18:47:42 - Function: get_stores_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:47:42 - 127.0.0.1 - - [23/Aug/2019 18:47:42] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:50:26 - Function: get_stores_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:50:26 - 127.0.0.1 - - [23/Aug/2019 18:50:26] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:52:01 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:52:01 - 127.0.0.1 - - [23/Aug/2019 18:52:01] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:53:23 - 127.0.0.1 - - [23/Aug/2019 18:53:23] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:53:23 - 127.0.0.1 - - [23/Aug/2019 18:53:23] "GET /webapi/product_search_front/ALL/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:53:23 - 127.0.0.1 - - [23/Aug/2019 18:53:23] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 18:53:23 - 127.0.0.1 - - [23/Aug/2019 18:53:23] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 18:53:23 - 127.0.0.1 - - [23/Aug/2019 18:53:23] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 18:53:23 - 127.0.0.1 - - [23/Aug/2019 18:53:23] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 18:53:23 - 127.0.0.1 - - [23/Aug/2019 18:53:23] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/CATEGORY HTTP/1.1" 200 -
+23-Aug-19 18:53:24 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:53:24 - 127.0.0.1 - - [23/Aug/2019 18:53:24] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:53:42 - 127.0.0.1 - - [23/Aug/2019 18:53:42] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:53:42 - 127.0.0.1 - - [23/Aug/2019 18:53:42] "GET /webapi/product_search_front/ALL/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:53:42 - 127.0.0.1 - - [23/Aug/2019 18:53:42] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 18:53:42 - 127.0.0.1 - - [23/Aug/2019 18:53:42] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 18:53:42 - 127.0.0.1 - - [23/Aug/2019 18:53:42] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 18:53:42 - 127.0.0.1 - - [23/Aug/2019 18:53:42] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 18:53:42 - 127.0.0.1 - - [23/Aug/2019 18:53:42] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/CATEGORY HTTP/1.1" 200 -
+23-Aug-19 18:53:42 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:53:42 - 127.0.0.1 - - [23/Aug/2019 18:53:42] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:54:43 - 127.0.0.1 - - [23/Aug/2019 18:54:43] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:54:43 - 127.0.0.1 - - [23/Aug/2019 18:54:43] "GET /webapi/product_search_front/ALL/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:54:43 - 127.0.0.1 - - [23/Aug/2019 18:54:43] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 18:54:43 - 127.0.0.1 - - [23/Aug/2019 18:54:43] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 18:54:43 - 127.0.0.1 - - [23/Aug/2019 18:54:43] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 18:54:43 - 127.0.0.1 - - [23/Aug/2019 18:54:43] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 18:54:43 - 127.0.0.1 - - [23/Aug/2019 18:54:43] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/CATEGORY HTTP/1.1" 200 -
+23-Aug-19 18:54:43 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:54:43 - 127.0.0.1 - - [23/Aug/2019 18:54:43] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:56:05 - 127.0.0.1 - - [23/Aug/2019 18:56:05] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 18:56:05 - 127.0.0.1 - - [23/Aug/2019 18:56:05] "GET /webapi/product_search_front/ALL/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 18:56:06 - 127.0.0.1 - - [23/Aug/2019 18:56:06] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 18:56:06 - 127.0.0.1 - - [23/Aug/2019 18:56:06] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 18:56:06 - 127.0.0.1 - - [23/Aug/2019 18:56:06] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 18:56:06 - 127.0.0.1 - - [23/Aug/2019 18:56:06] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 18:56:06 - 127.0.0.1 - - [23/Aug/2019 18:56:06] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/CATEGORY HTTP/1.1" 200 -
+23-Aug-19 18:56:06 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:56:06 - 127.0.0.1 - - [23/Aug/2019 18:56:06] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 18:59:51 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 18:59:51 - 127.0.0.1 - - [23/Aug/2019 18:59:51] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:02:34 - 127.0.0.1 - - [23/Aug/2019 19:02:34] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 19:02:34 - 127.0.0.1 - - [23/Aug/2019 19:02:34] "GET /webapi/product_search_front/ALL/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 19:02:34 - 127.0.0.1 - - [23/Aug/2019 19:02:34] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 19:02:34 - 127.0.0.1 - - [23/Aug/2019 19:02:34] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 19:02:34 - 127.0.0.1 - - [23/Aug/2019 19:02:34] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 19:02:34 - 127.0.0.1 - - [23/Aug/2019 19:02:34] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 19:02:34 - 127.0.0.1 - - [23/Aug/2019 19:02:34] "GET /webapi/product_filters_front/ALL/biscuit/SEARCH/CATEGORY HTTP/1.1" 200 -
+23-Aug-19 19:02:34 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:02:34 - 127.0.0.1 - - [23/Aug/2019 19:02:34] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:04:27 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:04:27 - 127.0.0.1 - - [23/Aug/2019 19:04:27] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:06:23 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:06:23 - 127.0.0.1 - - [23/Aug/2019 19:06:23] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:07:53 - 127.0.0.1 - - [23/Aug/2019 19:07:53] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 19:07:53 - 127.0.0.1 - - [23/Aug/2019 19:07:53] "GET /webapi/product_search_front/G55/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 19:07:54 - 127.0.0.1 - - [23/Aug/2019 19:07:54] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 19:07:54 - 127.0.0.1 - - [23/Aug/2019 19:07:54] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 19:07:54 - 127.0.0.1 - - [23/Aug/2019 19:07:54] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 19:07:54 - 127.0.0.1 - - [23/Aug/2019 19:07:54] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 19:07:54 - 127.0.0.1 - - [23/Aug/2019 19:07:54] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/CATEGORY HTTP/1.1" 200 -
+23-Aug-19 19:07:54 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:07:54 - 127.0.0.1 - - [23/Aug/2019 19:07:54] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:12:40 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:12:40 - 127.0.0.1 - - [23/Aug/2019 19:12:40] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:14:13 - 127.0.0.1 - - [23/Aug/2019 19:14:13] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 19:14:13 - 127.0.0.1 - - [23/Aug/2019 19:14:13] "GET /webapi/product_search_front/G55/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 19:14:13 - 127.0.0.1 - - [23/Aug/2019 19:14:13] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 19:14:13 - 127.0.0.1 - - [23/Aug/2019 19:14:13] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 19:14:13 - 127.0.0.1 - - [23/Aug/2019 19:14:13] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 19:14:13 - 127.0.0.1 - - [23/Aug/2019 19:14:13] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 19:14:13 - 127.0.0.1 - - [23/Aug/2019 19:14:13] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 19:15:39 - 127.0.0.1 - - [23/Aug/2019 19:15:39] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 19:15:39 - 127.0.0.1 - - [23/Aug/2019 19:15:39] "GET /webapi/product_search_front/G55/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 19:15:39 - 127.0.0.1 - - [23/Aug/2019 19:15:39] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 19:15:39 - 127.0.0.1 - - [23/Aug/2019 19:15:39] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 19:15:39 - 127.0.0.1 - - [23/Aug/2019 19:15:39] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 19:15:39 - 127.0.0.1 - - [23/Aug/2019 19:15:39] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 19:16:09 - 127.0.0.1 - - [23/Aug/2019 19:16:09] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 19:16:09 - 127.0.0.1 - - [23/Aug/2019 19:16:09] "GET /webapi/product_search_front/G55/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 19:16:09 - 127.0.0.1 - - [23/Aug/2019 19:16:09] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 19:16:09 - 127.0.0.1 - - [23/Aug/2019 19:16:09] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 19:16:09 - 127.0.0.1 - - [23/Aug/2019 19:16:09] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 19:16:09 - 127.0.0.1 - - [23/Aug/2019 19:16:09] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 19:16:10 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:16:10 - 127.0.0.1 - - [23/Aug/2019 19:16:10] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:17:10 - 127.0.0.1 - - [23/Aug/2019 19:17:10] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 19:17:10 - 127.0.0.1 - - [23/Aug/2019 19:17:10] "GET /webapi/product_search_front/G55/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 19:17:10 - 127.0.0.1 - - [23/Aug/2019 19:17:10] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 19:17:10 - 127.0.0.1 - - [23/Aug/2019 19:17:10] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 19:17:10 - 127.0.0.1 - - [23/Aug/2019 19:17:10] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 19:17:10 - 127.0.0.1 - - [23/Aug/2019 19:17:10] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 19:17:10 - 127.0.0.1 - - [23/Aug/2019 19:17:10] "GET /webapi/guest HTTP/1.1" 200 -
+23-Aug-19 19:17:26 - 127.0.0.1 - - [23/Aug/2019 19:17:26] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 19:17:26 - 127.0.0.1 - - [23/Aug/2019 19:17:26] "GET /webapi/product_search_front/G55/biscuit?s=1 HTTP/1.1" 200 -
+23-Aug-19 19:17:26 - 127.0.0.1 - - [23/Aug/2019 19:17:26] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/deliver HTTP/1.1" 200 -
+23-Aug-19 19:17:26 - 127.0.0.1 - - [23/Aug/2019 19:17:26] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/public HTTP/1.1" 200 -
+23-Aug-19 19:17:26 - 127.0.0.1 - - [23/Aug/2019 19:17:26] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/price HTTP/1.1" 200 -
+23-Aug-19 19:17:26 - 127.0.0.1 - - [23/Aug/2019 19:17:26] "GET /webapi/product_filters_front/G55/biscuit/SEARCH/state HTTP/1.1" 200 -
+23-Aug-19 19:17:35 - 127.0.0.1 - - [23/Aug/2019 19:17:35] "GET /webapi/categories?sc=ALL HTTP/1.1" 200 -
+23-Aug-19 19:17:35 - 127.0.0.1 - - [23/Aug/2019 19:17:35] "GET /webapi/stores_front/All?s=1 HTTP/1.1" 200 -
+23-Aug-19 19:17:37 - Function: get_store_front_one - When: Handling - Message: must be str, not ObjectId - Arguments: 
+23-Aug-19 19:17:37 - 127.0.0.1 - - [23/Aug/2019 19:17:37] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+23-Aug-19 19:17:37 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:17:37 - 127.0.0.1 - - [23/Aug/2019 19:17:37] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:18:57 - Function: get_store_front_one - When: Handling - Message: must be str, not ObjectId - Arguments: 
+23-Aug-19 19:18:57 - 127.0.0.1 - - [23/Aug/2019 19:18:57] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+23-Aug-19 19:18:57 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:18:57 - 127.0.0.1 - - [23/Aug/2019 19:18:57] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:19:45 - Function: get_store_front_one - When: Handling - Message: must be str, not ObjectId - Arguments: 
+23-Aug-19 19:19:45 - 127.0.0.1 - - [23/Aug/2019 19:19:45] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+23-Aug-19 19:19:45 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:19:45 - 127.0.0.1 - - [23/Aug/2019 19:19:45] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:20:26 - Function: get_store_front_one - When: Handling - Message: must be str, not ObjectId - Arguments: 
+23-Aug-19 19:20:26 - 127.0.0.1 - - [23/Aug/2019 19:20:26] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+23-Aug-19 19:20:26 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:20:26 - 127.0.0.1 - - [23/Aug/2019 19:20:26] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:23:55 - Function: get_store_front_one - When: Handling - Message: must be str, not ObjectId - Arguments: 
+23-Aug-19 19:23:55 - 127.0.0.1 - - [23/Aug/2019 19:23:55] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+23-Aug-19 19:23:55 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:23:55 - 127.0.0.1 - - [23/Aug/2019 19:23:55] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -
+23-Aug-19 19:26:01 - Function: get_store_front_one - When: Handling - Message: must be str, not ObjectId - Arguments: 
+23-Aug-19 19:26:01 - 127.0.0.1 - - [23/Aug/2019 19:26:01] "GET /webapi/store_front_one/plie_test HTTP/1.1" 200 -
+23-Aug-19 19:26:01 - Function: get_store_front_one - When: Handling - Message: must be str, not NoneType - Arguments: 
+23-Aug-19 19:26:01 - 127.0.0.1 - - [23/Aug/2019 19:26:01] "GET /webapi/store_front_one/favicon.ico HTTP/1.1" 200 -

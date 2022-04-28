@@ -1,0 +1,4 @@
+30-Aug-19 14:47:53 - Function: save_authenticated_user - When: Handling - Message: save_authenticated_database_user() missing 1 required positional argument: 'token' - Arguments: {'user_id': '5cf952ebb5c5a70538425abe'}
+30-Aug-19 14:48:54 - Function: save_authenticated_user - When: Handling - Message: save_authenticated_database_user() missing 1 required positional argument: 'token' - Arguments: {'user_id': '5cf952ebb5c5a70538425abe', 'token': '5cf952ebb5c5a70538425abe'}
+30-Aug-19 16:51:03 - Function: authenticated_user - When: Handling - Message: Unsupported projection option: result: { $literal: "SUCCESS" } - Arguments: {'user': 'test@email.com', 'pwd': 'asdfa', 'connected': 'N'}
+30-Aug-19 16:51:03 - 127.0.0.1 - - [30/Aug/2019 16:51:03] "POST /webapi/authenticate_user HTTP/1.1" 200 -

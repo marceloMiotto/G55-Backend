@@ -1,0 +1,10 @@
+29-Aug-19 18:26:43 - Function: upsert_user_store - When: Handling - Message: string indices must be integers - Arguments: content: {'user_id': '5d682ef782940a433cb3d456', 'name': 'SIT01 - Loja', 'description': 'Teste da criação da loja ', '_id': '5d684067aee7b83d28ae52b3'}
+29-Aug-19 18:26:43 - 127.0.0.1 - - [29/Aug/2019 18:26:43] "POST /webapi/user_store/5d682ef782940a433cb3d456 HTTP/1.1" 200 -
+29-Aug-19 18:38:27 - Function: upsert_user_store - When: Handling - Message: string indices must be integers - Arguments: content: {'user_id': '5d682ef782940a433cb3d456', 'name': 'SIT01 - Loja', 'description': 'Teste da criação da loja ', '_id': '5d684067aee7b83d28ae52b3'}
+29-Aug-19 18:38:27 - 127.0.0.1 - - [29/Aug/2019 18:38:27] "POST /webapi/user_store/5d682ef782940a433cb3d456 HTTP/1.1" 200 -
+29-Aug-19 18:39:50 - Function: upsert_user_store - When: Handling - Message: string indices must be integers - Arguments: content: {'user_id': '5d682ef782940a433cb3d456', 'name': 'SIT01 - Loja', 'description': 'Teste da criação da loja ', '_id': '5d684067aee7b83d28ae52b3'}
+29-Aug-19 18:39:50 - 127.0.0.1 - - [29/Aug/2019 18:39:50] "POST /webapi/user_store/5d682ef782940a433cb3d456 HTTP/1.1" 200 -
+29-Aug-19 18:41:03 - Function: upsert_user_store - When: Handling - Message: string indices must be integers - Arguments: content: {'user_id': '5d682ef782940a433cb3d456', 'name': 'SIT01 - Loja', 'description': 'Teste da criação da loja ', '_id': '5d684067aee7b83d28ae52b3'}
+29-Aug-19 18:41:03 - 127.0.0.1 - - [29/Aug/2019 18:41:03] "POST /webapi/user_store/5d682ef782940a433cb3d456 HTTP/1.1" 200 -
+29-Aug-19 18:41:25 - Function: upsert_user_store - When: Handling - Message: string indices must be integers - Arguments: content: {'user_id': '5d682ef782940a433cb3d456', 'name': 'SIT01 - Loja', 'description': 'Teste da criação da loja ', '_id': '5d684067aee7b83d28ae52b3'}
+29-Aug-19 18:41:25 - 127.0.0.1 - - [29/Aug/2019 18:41:25] "POST /webapi/user_store/5d682ef782940a433cb3d456 HTTP/1.1" 200 -
